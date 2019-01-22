@@ -10,15 +10,15 @@ before_install:
 - pdflatex Quarta.tex
 - pdflatex Quinta.tex
 - pdflatex Tutto.tex
-deploy:
-  provider: releases
-  api_key:
-    secure: lObpNO0uuv8u0PCWtmKb4lw9oDbc1KA3KwUgiIKu8Y0OfWHf4xq4Bfg3HXFGBcpB4EmqcNNQn9U/MV87+sLewz18m0v0GpPk8+1sfUAVJQSXwlYFuCKmKGvy8sea6u7OWg8k6w/iK6Dl7qjI7//gyfOTV1ytO4LXFxIbzS7MJSA4cl/SKuX4iTeZ96xYbr5hHZalYrZFhnQoKBh8DE1yyWgKE7QIG+IX+1zOUtmvmIJVEbyL5i4YZ+2C2+G3jr4Sc1uv3nRVJDYcTDDPSNk6OsDDJVOazLP07VkUbyQXdwGAMH53AaMKjdm6Il5WPgH3vbDnNRo8Dg5Awyd8X74AZm7BdHK63NcsfRY5XDquC/x+Fr/B6/c3tSJDj6p0G8trn07wcKBxheYNsyJUFmnI72I7hNROrqzwlpVqGOMJjXAJfhhLTlBUcH+qzLHUtOZ54cwbgNUZHNH7H8sIogmK477/kKq+7d3quQiCjax8yXD6f0oG8hivRHJNB2dqdAUHljyZpLnqARhdx0qv+7nkg8kgSwgk6LfzFjN0LtTrfRfVpSrKN9kUbtuf1hUKXSs+ZK8GrApC9zh1624QIG5+lUzdxNZnegtc4cw5VG92c/YMStZIoxBZxmBpNXYTy5EAKB2fp9/rPJ2FmE2eqIYRPpdyXfYJzmqx8wiDRdKCaLg=
-  file:
-    - "Terza.pdf"
-    - "Quarta.pdf"
-    - "Quinta.pdf"
-    - "Tutto.pdf"
-  draft: true
-  on:
-    repo: eutampieri/appunti-fisica
+# deploy:
+#   provider: releases
+#   api_key:
+#     secure: lObpNO0uuv8u0PCWtmKb4lw9oDbc1KA3KwUgiIKu8Y0OfWHf4xq4Bfg3HXFGBcpB4EmqcNNQn9U/MV87+sLewz18m0v0GpPk8+1sfUAVJQSXwlYFuCKmKGvy8sea6u7OWg8k6w/iK6Dl7qjI7//gyfOTV1ytO4LXFxIbzS7MJSA4cl/SKuX4iTeZ96xYbr5hHZalYrZFhnQoKBh8DE1yyWgKE7QIG+IX+1zOUtmvmIJVEbyL5i4YZ+2C2+G3jr4Sc1uv3nRVJDYcTDDPSNk6OsDDJVOazLP07VkUbyQXdwGAMH53AaMKjdm6Il5WPgH3vbDnNRo8Dg5Awyd8X74AZm7BdHK63NcsfRY5XDquC/x+Fr/B6/c3tSJDj6p0G8trn07wcKBxheYNsyJUFmnI72I7hNROrqzwlpVqGOMJjXAJfhhLTlBUcH+qzLHUtOZ54cwbgNUZHNH7H8sIogmK477/kKq+7d3quQiCjax8yXD6f0oG8hivRHJNB2dqdAUHljyZpLnqARhdx0qv+7nkg8kgSwgk6LfzFjN0LtTrfRfVpSrKN9kUbtuf1hUKXSs+ZK8GrApC9zh1624QIG5+lUzdxNZnegtc4cw5VG92c/YMStZIoxBZxmBpNXYTy5EAKB2fp9/rPJ2FmE2eqIYRPpdyXfYJzmqx8wiDRdKCaLg=
+#   file:
+#     - "Terza.pdf"
+#     - "Quarta.pdf"
+#     - "Quinta.pdf"
+#     - "Tutto.pdf"
+#   draft: true
+#   on:
+#     repo: eutampieri/appunti-fisica

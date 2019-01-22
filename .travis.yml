@@ -1,15 +1,12 @@
 language: generic
 before_install:
 - sudo apt-get update
-- sudo apt install texlive-full
+- sudo apt install texlive-full curl
 - pdflatex Terza.tex
 - pdflatex Quarta.tex
 - pdflatex Quinta.tex
 - pdflatex Tutto.tex
-- pdflatex Terza.tex
-- pdflatex Quarta.tex
-- pdflatex Quinta.tex
-- pdflatex Tutto.tex
+- curl https://scuola.eutampieri.eu/appunti-fisica/update.php?key=${API_KEY}
 # deploy:
 #   provider: releases
 #   api_key:

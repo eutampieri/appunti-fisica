@@ -1,0 +1,2508 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="600"
+   height="480"
+   viewBox="0 0 600 480"
+   id="svg4678"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="seno.svg">
+  <metadata
+     id="metadata5530">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs5528" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1440"
+     inkscape:window-height="851"
+     id="namedview5526"
+     showgrid="false"
+     inkscape:zoom="1.3906433"
+     inkscape:cx="481.36648"
+     inkscape:cy="233.69389"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4678" />
+  <title
+     id="title4680">Gnuplot</title>
+  <desc
+     id="desc4682">Produced by GNUPLOT 5.0 patchlevel 3 </desc>
+  <g
+     id="gnuplot_canvas">
+    <rect
+       x="0"
+       y="0"
+       width="600"
+       height="480"
+       fill="none"
+       id="rect4685" />
+    <defs
+       id="defs4687">
+      <circle
+         id="gpDot"
+         r="0.5"
+         stroke-width="0.5" />
+      <path
+         id="gpPt0"
+         stroke-width="0.222"
+         stroke="currentColor"
+         d="M-1,0 h2 M0,-1 v2" />
+      <path
+         id="gpPt1"
+         stroke-width="0.222"
+         stroke="currentColor"
+         d="M-1,-1 L1,1 M1,-1 L-1,1" />
+      <path
+         id="gpPt2"
+         stroke-width="0.222"
+         stroke="currentColor"
+         d="M-1,0 L1,0 M0,-1 L0,1 M-1,-1 L1,1 M-1,1 L1,-1" />
+      <rect
+         id="gpPt3"
+         stroke-width="0.222"
+         stroke="currentColor"
+         x="-1"
+         y="-1"
+         width="2"
+         height="2" />
+      <rect
+         id="gpPt4"
+         stroke-width="0.222"
+         stroke="currentColor"
+         fill="currentColor"
+         x="-1"
+         y="-1"
+         width="2"
+         height="2" />
+      <circle
+         id="gpPt5"
+         stroke-width="0.222"
+         stroke="currentColor"
+         cx="0"
+         cy="0"
+         r="1" />
+      <use
+         xlink:href="#gpPt5"
+         id="gpPt6"
+         fill="currentColor"
+         stroke="none" />
+      <path
+         id="gpPt7"
+         stroke-width="0.222"
+         stroke="currentColor"
+         d="M0,-1.33 L-1.33,0.67 L1.33,0.67 z" />
+      <use
+         xlink:href="#gpPt7"
+         id="gpPt8"
+         fill="currentColor"
+         stroke="none" />
+      <use
+         xlink:href="#gpPt7"
+         id="gpPt9"
+         stroke="currentColor"
+         transform="rotate(180)" />
+      <use
+         xlink:href="#gpPt9"
+         id="gpPt10"
+         fill="currentColor"
+         stroke="none" />
+      <use
+         xlink:href="#gpPt3"
+         id="gpPt11"
+         stroke="currentColor"
+         transform="rotate(45)" />
+      <use
+         xlink:href="#gpPt11"
+         id="gpPt12"
+         fill="currentColor"
+         stroke="none" />
+      <path
+         id="gpPt13"
+         stroke-width="0.222"
+         stroke="currentColor"
+         d="M0,1.330 L1.265,0.411 L0.782,-1.067 L-0.782,-1.076 L-1.265,0.411 z" />
+      <use
+         xlink:href="#gpPt13"
+         id="gpPt14"
+         fill="currentColor"
+         stroke="none" />
+      <filter
+         id="textbox"
+         filterUnits="objectBoundingBox"
+         x="0"
+         y="0"
+         height="1"
+         width="1">
+        <feFlood
+           flood-color="white"
+           flood-opacity="1"
+           result="bgnd"
+           id="feFlood4706" />
+        <feComposite
+           in="SourceGraphic"
+           in2="bgnd"
+           operator="atop"
+           id="feComposite4708" />
+      </filter>
+      <filter
+         id="greybox"
+         filterUnits="objectBoundingBox"
+         x="0"
+         y="0"
+         height="1"
+         width="1">
+        <feFlood
+           flood-color="lightgrey"
+           flood-opacity="1"
+           result="grey"
+           id="feFlood4711" />
+        <feComposite
+           in="SourceGraphic"
+           in2="grey"
+           operator="atop"
+           id="feComposite4713" />
+      </filter>
+    </defs>
+    <g
+       fill="none"
+       color="white"
+       stroke="black"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g4715" />
+    <g
+       fill="none"
+       color="black"
+       stroke="currentColor"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g4717">
+      <path
+         stroke="black"
+         d="M53.9,409.2 L62.9,409.2 M575.0,409.2 L566.0,409.2  "
+         id="path4719" />
+      <g
+         transform="translate(45.6,413.7)"
+         stroke="none"
+         fill="black"
+         font-family="Arial"
+         font-size="12.00"
+         text-anchor="end"
+         id="g4721">
+        <text
+           id="text4723">
+          <tspan
+             font-family="Arial"
+             id="tspan4725">-1</tspan>
+        </text>
+      </g>
+    </g>
+    <g
+       fill="none"
+       color="black"
+       stroke="currentColor"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g4727">
+      <path
+         stroke="black"
+         d="M53.9,370.0 L62.9,370.0 M575.0,370.0 L566.0,370.0  "
+         id="path4729" />
+      <g
+         transform="translate(45.6,374.5)"
+         stroke="none"
+         fill="black"
+         font-family="Arial"
+         font-size="12.00"
+         text-anchor="end"
+         id="g4731">
+        <text
+           id="text4733">
+          <tspan
+             font-family="Arial"
+             id="tspan4735">-0.8</tspan>
+        </text>
+      </g>
+    </g>
+    <g
+       fill="none"
+       color="black"
+       stroke="currentColor"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g4737">
+      <path
+         stroke="black"
+         d="M53.9,330.7 L62.9,330.7 M575.0,330.7 L566.0,330.7  "
+         id="path4739" />
+      <g
+         transform="translate(45.6,335.2)"
+         stroke="none"
+         fill="black"
+         font-family="Arial"
+         font-size="12.00"
+         text-anchor="end"
+         id="g4741">
+        <text
+           id="text4743">
+          <tspan
+             font-family="Arial"
+             id="tspan4745">-0.6</tspan>
+        </text>
+      </g>
+    </g>
+    <g
+       fill="none"
+       color="black"
+       stroke="currentColor"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g4747">
+      <path
+         stroke="black"
+         d="M53.9,291.5 L62.9,291.5 M575.0,291.5 L566.0,291.5  "
+         id="path4749" />
+      <g
+         transform="translate(45.6,296.0)"
+         stroke="none"
+         fill="black"
+         font-family="Arial"
+         font-size="12.00"
+         text-anchor="end"
+         id="g4751">
+        <text
+           id="text4753">
+          <tspan
+             font-family="Arial"
+             id="tspan4755">-0.4</tspan>
+        </text>
+      </g>
+    </g>
+    <g
+       fill="none"
+       color="black"
+       stroke="currentColor"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g4757">
+      <path
+         stroke="black"
+         d="M53.9,252.2 L62.9,252.2 M575.0,252.2 L566.0,252.2  "
+         id="path4759" />
+      <g
+         transform="translate(45.6,256.7)"
+         stroke="none"
+         fill="black"
+         font-family="Arial"
+         font-size="12.00"
+         text-anchor="end"
+         id="g4761">
+        <text
+           id="text4763">
+          <tspan
+             font-family="Arial"
+             id="tspan4765">-0.2</tspan>
+        </text>
+      </g>
+    </g>
+    <g
+       fill="none"
+       color="black"
+       stroke="currentColor"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g4767">
+      <path
+         stroke="black"
+         d="M53.9,213.0 L62.9,213.0 M575.0,213.0 L566.0,213.0  "
+         id="path4769" />
+      <g
+         transform="translate(45.6,217.5)"
+         stroke="none"
+         fill="black"
+         font-family="Arial"
+         font-size="12.00"
+         text-anchor="end"
+         id="g4771">
+        <text
+           id="text4773">
+          <tspan
+             font-family="Arial"
+             id="tspan4775"> 0</tspan>
+        </text>
+      </g>
+    </g>
+    <g
+       fill="none"
+       color="black"
+       stroke="currentColor"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g4777">
+      <path
+         stroke="black"
+         d="M53.9,173.7 L62.9,173.7 M575.0,173.7 L566.0,173.7  "
+         id="path4779" />
+      <g
+         transform="translate(45.6,178.2)"
+         stroke="none"
+         fill="black"
+         font-family="Arial"
+         font-size="12.00"
+         text-anchor="end"
+         id="g4781">
+        <text
+           id="text4783">
+          <tspan
+             font-family="Arial"
+             id="tspan4785"> 0.2</tspan>
+        </text>
+      </g>
+    </g>
+    <g
+       fill="none"
+       color="black"
+       stroke="currentColor"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g4787">
+      <path
+         stroke="black"
+         d="M53.9,134.5 L62.9,134.5 M575.0,134.5 L566.0,134.5  "
+         id="path4789" />
+      <g
+         transform="translate(45.6,139.0)"
+         stroke="none"
+         fill="black"
+         font-family="Arial"
+         font-size="12.00"
+         text-anchor="end"
+         id="g4791">
+        <text
+           id="text4793">
+          <tspan
+             font-family="Arial"
+             id="tspan4795"> 0.4</tspan>
+        </text>
+      </g>
+    </g>
+    <g
+       fill="none"
+       color="black"
+       stroke="currentColor"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g4797">
+      <path
+         stroke="black"
+         d="M53.9,95.2 L62.9,95.2 M575.0,95.2 L566.0,95.2  "
+         id="path4799" />
+      <g
+         transform="translate(45.6,99.7)"
+         stroke="none"
+         fill="black"
+         font-family="Arial"
+         font-size="12.00"
+         text-anchor="end"
+         id="g4801">
+        <text
+           id="text4803">
+          <tspan
+             font-family="Arial"
+             id="tspan4805"> 0.6</tspan>
+        </text>
+      </g>
+    </g>
+    <g
+       fill="none"
+       color="black"
+       stroke="currentColor"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g4807">
+      <path
+         stroke="black"
+         d="M53.9,55.9 L62.9,55.9 M575.0,55.9 L566.0,55.9  "
+         id="path4809" />
+      <g
+         transform="translate(45.6,60.4)"
+         stroke="none"
+         fill="black"
+         font-family="Arial"
+         font-size="12.00"
+         text-anchor="end"
+         id="g4811">
+        <text
+           id="text4813">
+          <tspan
+             font-family="Arial"
+             id="tspan4815"> 0.8</tspan>
+        </text>
+      </g>
+    </g>
+    <g
+       fill="none"
+       color="black"
+       stroke="currentColor"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g4817">
+      <path
+         stroke="black"
+         d="M53.9,16.7 L62.9,16.7 M575.0,16.7 L566.0,16.7  "
+         id="path4819" />
+      <g
+         transform="translate(45.6,21.2)"
+         stroke="none"
+         fill="black"
+         font-family="Arial"
+         font-size="12.00"
+         text-anchor="end"
+         id="g4821">
+        <text
+           id="text4823">
+          <tspan
+             font-family="Arial"
+             id="tspan4825"> 1</tspan>
+        </text>
+      </g>
+    </g>
+    <g
+       fill="none"
+       color="black"
+       stroke="currentColor"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g4827">
+      <path
+         stroke="black"
+         d="M53.9,409.2 L53.9,400.2 M53.9,16.7 L53.9,25.7  "
+         id="path4829" />
+      <g
+         transform="translate(58.4,417.5) rotate(45)"
+         stroke="none"
+         fill="black"
+         font-family="Arial"
+         font-size="12.00"
+         text-anchor="start"
+         id="g4831">
+        <text
+           id="text4833">
+          <tspan
+             font-family="Arial"
+             id="tspan4835">-6.28319</tspan>
+        </text>
+      </g>
+    </g>
+    <g
+       fill="none"
+       color="black"
+       stroke="currentColor"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g4837">
+      <path
+         stroke="black"
+         d="M75.6,409.2 L75.6,400.2 M75.6,16.7 L75.6,25.7  "
+         id="path4839" />
+      <g
+         transform="translate(80.1,417.5) rotate(45)"
+         stroke="none"
+         fill="black"
+         font-family="Arial"
+         font-size="12.00"
+         text-anchor="start"
+         id="g4841">
+        <text
+           id="text4843">
+          <tspan
+             font-family="Arial"
+             id="tspan4845">-5.75959</tspan>
+        </text>
+      </g>
+    </g>
+    <g
+       fill="none"
+       color="black"
+       stroke="currentColor"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g4847">
+      <path
+         stroke="black"
+         d="M97.3,409.2 L97.3,400.2 M97.3,16.7 L97.3,25.7  "
+         id="path4849" />
+      <g
+         transform="translate(101.8,417.5) rotate(45)"
+         stroke="none"
+         fill="black"
+         font-family="Arial"
+         font-size="12.00"
+         text-anchor="start"
+         id="g4851">
+        <text
+           id="text4853">
+          <tspan
+             font-family="Arial"
+             id="tspan4855">-5.23599</tspan>
+        </text>
+      </g>
+    </g>
+    <g
+       fill="none"
+       color="black"
+       stroke="currentColor"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g4857">
+      <path
+         stroke="black"
+         d="M119.0,409.2 L119.0,400.2 M119.0,16.7 L119.0,25.7  "
+         id="path4859" />
+      <g
+         transform="translate(123.5,417.5) rotate(45)"
+         stroke="none"
+         fill="black"
+         font-family="Arial"
+         font-size="12.00"
+         text-anchor="start"
+         id="g4861">
+        <text
+           id="text4863">
+          <tspan
+             font-family="Arial"
+             id="tspan4865">-4.71239</tspan>
+        </text>
+      </g>
+    </g>
+    <g
+       fill="none"
+       color="black"
+       stroke="currentColor"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g4867">
+      <path
+         stroke="black"
+         d="M140.8,409.2 L140.8,400.2 M140.8,16.7 L140.8,25.7  "
+         id="path4869" />
+      <g
+         transform="translate(145.3,417.5) rotate(45)"
+         stroke="none"
+         fill="black"
+         font-family="Arial"
+         font-size="12.00"
+         text-anchor="start"
+         id="g4871">
+        <text
+           id="text4873">
+          <tspan
+             font-family="Arial"
+             id="tspan4875">-4.18879</tspan>
+        </text>
+      </g>
+    </g>
+    <g
+       fill="none"
+       color="black"
+       stroke="currentColor"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g4877">
+      <path
+         stroke="black"
+         d="M162.5,409.2 L162.5,400.2 M162.5,16.7 L162.5,25.7  "
+         id="path4879" />
+      <g
+         transform="translate(167.0,417.5) rotate(45)"
+         stroke="none"
+         fill="black"
+         font-family="Arial"
+         font-size="12.00"
+         text-anchor="start"
+         id="g4881">
+        <text
+           id="text4883">
+          <tspan
+             font-family="Arial"
+             id="tspan4885">-3.66519</tspan>
+        </text>
+      </g>
+    </g>
+    <g
+       fill="none"
+       color="black"
+       stroke="currentColor"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g4887">
+      <path
+         stroke="black"
+         d="M184.2,409.2 L184.2,400.2 M184.2,16.7 L184.2,25.7  "
+         id="path4889" />
+      <g
+         transform="translate(188.7,417.5) rotate(45)"
+         stroke="none"
+         fill="black"
+         font-family="Arial"
+         font-size="12.00"
+         text-anchor="start"
+         id="g4891">
+        <text
+           id="text4893">
+          <tspan
+             font-family="Arial"
+             id="tspan4895">-3.14159</tspan>
+        </text>
+      </g>
+    </g>
+    <g
+       fill="none"
+       color="black"
+       stroke="currentColor"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g4897">
+      <path
+         stroke="black"
+         d="M205.9,409.2 L205.9,400.2 M205.9,16.7 L205.9,25.7  "
+         id="path4899" />
+      <g
+         transform="translate(210.4,417.5) rotate(45)"
+         stroke="none"
+         fill="black"
+         font-family="Arial"
+         font-size="12.00"
+         text-anchor="start"
+         id="g4901">
+        <text
+           id="text4903">
+          <tspan
+             font-family="Arial"
+             id="tspan4905">-2.61799</tspan>
+        </text>
+      </g>
+    </g>
+    <g
+       fill="none"
+       color="black"
+       stroke="currentColor"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g4907">
+      <path
+         stroke="black"
+         d="M227.6,409.2 L227.6,400.2 M227.6,16.7 L227.6,25.7  "
+         id="path4909" />
+      <g
+         transform="translate(232.1,417.5) rotate(45)"
+         stroke="none"
+         fill="black"
+         font-family="Arial"
+         font-size="12.00"
+         text-anchor="start"
+         id="g4911">
+        <text
+           id="text4913">
+          <tspan
+             font-family="Arial"
+             id="tspan4915">-2.0944</tspan>
+        </text>
+      </g>
+    </g>
+    <g
+       fill="none"
+       color="black"
+       stroke="currentColor"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g4917">
+      <path
+         stroke="black"
+         d="M249.3,409.2 L249.3,400.2 M249.3,16.7 L249.3,25.7  "
+         id="path4919" />
+      <g
+         transform="translate(253.8,417.5) rotate(45)"
+         stroke="none"
+         fill="black"
+         font-family="Arial"
+         font-size="12.00"
+         text-anchor="start"
+         id="g4921">
+        <text
+           id="text4923">
+          <tspan
+             font-family="Arial"
+             id="tspan4925">-1.5708</tspan>
+        </text>
+      </g>
+    </g>
+    <g
+       fill="none"
+       color="black"
+       stroke="currentColor"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g4927">
+      <path
+         stroke="black"
+         d="M271.0,409.2 L271.0,400.2 M271.0,16.7 L271.0,25.7  "
+         id="path4929" />
+      <g
+         transform="translate(275.5,417.5) rotate(45)"
+         stroke="none"
+         fill="black"
+         font-family="Arial"
+         font-size="12.00"
+         text-anchor="start"
+         id="g4931">
+        <text
+           id="text4933">
+          <tspan
+             font-family="Arial"
+             id="tspan4935">-1.0472</tspan>
+        </text>
+      </g>
+    </g>
+    <g
+       fill="none"
+       color="black"
+       stroke="currentColor"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g4937">
+      <path
+         stroke="black"
+         d="M292.7,409.2 L292.7,400.2 M292.7,16.7 L292.7,25.7  "
+         id="path4939" />
+      <g
+         transform="translate(297.2,417.5) rotate(45)"
+         stroke="none"
+         fill="black"
+         font-family="Arial"
+         font-size="12.00"
+         text-anchor="start"
+         id="g4941">
+        <text
+           id="text4943">
+          <tspan
+             font-family="Arial"
+             id="tspan4945">-0.523599</tspan>
+        </text>
+      </g>
+    </g>
+    <g
+       fill="none"
+       color="black"
+       stroke="currentColor"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g4947">
+      <path
+         stroke="black"
+         d="M314.5,409.2 L314.5,400.2 M314.5,16.7 L314.5,25.7  "
+         id="path4949" />
+      <g
+         transform="translate(319.0,417.5) rotate(45)"
+         stroke="none"
+         fill="black"
+         font-family="Arial"
+         font-size="12.00"
+         text-anchor="start"
+         id="g4951">
+        <text
+           id="text4953">
+          <tspan
+             font-family="Arial"
+             id="tspan4955"> 0</tspan>
+        </text>
+      </g>
+    </g>
+    <g
+       fill="none"
+       color="black"
+       stroke="currentColor"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g4957">
+      <path
+         stroke="black"
+         d="M336.2,409.2 L336.2,400.2 M336.2,16.7 L336.2,25.7  "
+         id="path4959" />
+      <g
+         transform="translate(340.7,417.5) rotate(45)"
+         stroke="none"
+         fill="black"
+         font-family="Arial"
+         font-size="12.00"
+         text-anchor="start"
+         id="g4961">
+        <text
+           id="text4963">
+          <tspan
+             font-family="Arial"
+             id="tspan4965"> 0.523599</tspan>
+        </text>
+      </g>
+    </g>
+    <g
+       fill="none"
+       color="black"
+       stroke="currentColor"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g4967">
+      <path
+         stroke="black"
+         d="M357.9,409.2 L357.9,400.2 M357.9,16.7 L357.9,25.7  "
+         id="path4969" />
+      <g
+         transform="translate(362.4,417.5) rotate(45)"
+         stroke="none"
+         fill="black"
+         font-family="Arial"
+         font-size="12.00"
+         text-anchor="start"
+         id="g4971">
+        <text
+           id="text4973">
+          <tspan
+             font-family="Arial"
+             id="tspan4975"> 1.0472</tspan>
+        </text>
+      </g>
+    </g>
+    <g
+       fill="none"
+       color="black"
+       stroke="currentColor"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g4977">
+      <path
+         stroke="black"
+         d="M379.6,409.2 L379.6,400.2 M379.6,16.7 L379.6,25.7  "
+         id="path4979" />
+      <g
+         transform="translate(384.1,417.5) rotate(45)"
+         stroke="none"
+         fill="black"
+         font-family="Arial"
+         font-size="12.00"
+         text-anchor="start"
+         id="g4981">
+        <text
+           id="text4983">
+          <tspan
+             id="tspan4985"
+             style="font-family:Arial">π/2</tspan>
+        </text>
+      </g>
+    </g>
+    <g
+       fill="none"
+       color="black"
+       stroke="currentColor"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g4987">
+      <path
+         stroke="black"
+         d="M401.3,409.2 L401.3,400.2 M401.3,16.7 L401.3,25.7  "
+         id="path4989" />
+      <g
+         transform="translate(405.8,417.5) rotate(45)"
+         stroke="none"
+         fill="black"
+         font-family="Arial"
+         font-size="12.00"
+         text-anchor="start"
+         id="g4991">
+        <text
+           id="text4993">
+          <tspan
+             font-family="Arial"
+             id="tspan4995"> 2.0944</tspan>
+        </text>
+      </g>
+    </g>
+    <g
+       fill="none"
+       color="black"
+       stroke="currentColor"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g4997">
+      <path
+         stroke="black"
+         d="M423.0,409.2 L423.0,400.2 M423.0,16.7 L423.0,25.7  "
+         id="path4999" />
+      <g
+         transform="translate(427.5,417.5) rotate(45)"
+         stroke="none"
+         fill="black"
+         font-family="Arial"
+         font-size="12.00"
+         text-anchor="start"
+         id="g5001">
+        <text
+           id="text5003">
+          <tspan
+             font-family="Arial"
+             id="tspan5005"> 2.61799</tspan>
+        </text>
+      </g>
+    </g>
+    <g
+       fill="none"
+       color="black"
+       stroke="currentColor"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g5007">
+      <path
+         stroke="black"
+         d="M444.7,409.2 L444.7,400.2 M444.7,16.7 L444.7,25.7  "
+         id="path5009" />
+      <g
+         transform="translate(449.2,417.5) rotate(45)"
+         stroke="none"
+         fill="black"
+         font-family="Arial"
+         font-size="12.00"
+         text-anchor="start"
+         id="g5011">
+        <text
+           id="text5013">
+          <tspan
+             font-family="Arial"
+             id="tspan5015"> 3.14159</tspan>
+        </text>
+      </g>
+    </g>
+    <g
+       fill="none"
+       color="black"
+       stroke="currentColor"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g5017">
+      <path
+         stroke="black"
+         d="M466.4,409.2 L466.4,400.2 M466.4,16.7 L466.4,25.7  "
+         id="path5019" />
+      <g
+         transform="translate(470.9,417.5) rotate(45)"
+         stroke="none"
+         fill="black"
+         font-family="Arial"
+         font-size="12.00"
+         text-anchor="start"
+         id="g5021">
+        <text
+           id="text5023">
+          <tspan
+             font-family="Arial"
+             id="tspan5025"> 3.66519</tspan>
+        </text>
+      </g>
+    </g>
+    <g
+       fill="none"
+       color="black"
+       stroke="currentColor"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g5027">
+      <path
+         stroke="black"
+         d="M488.2,409.2 L488.2,400.2 M488.2,16.7 L488.2,25.7  "
+         id="path5029" />
+      <g
+         transform="translate(492.7,417.5) rotate(45)"
+         stroke="none"
+         fill="black"
+         font-family="Arial"
+         font-size="12.00"
+         text-anchor="start"
+         id="g5031">
+        <text
+           id="text5033">
+          <tspan
+             font-family="Arial"
+             id="tspan5035"> 4.18879</tspan>
+        </text>
+      </g>
+    </g>
+    <g
+       fill="none"
+       color="black"
+       stroke="currentColor"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g5037">
+      <path
+         stroke="black"
+         d="M509.9,409.2 L509.9,400.2 M509.9,16.7 L509.9,25.7  "
+         id="path5039" />
+      <g
+         transform="translate(514.4,417.5) rotate(45)"
+         stroke="none"
+         fill="black"
+         font-family="Arial"
+         font-size="12.00"
+         text-anchor="start"
+         id="g5041">
+        <text
+           id="text5043">
+          <tspan
+             font-family="Arial"
+             id="tspan5045"> 4.71239</tspan>
+        </text>
+      </g>
+    </g>
+    <g
+       fill="none"
+       color="black"
+       stroke="currentColor"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g5047">
+      <path
+         stroke="black"
+         d="M531.6,409.2 L531.6,400.2 M531.6,16.7 L531.6,25.7  "
+         id="path5049" />
+      <g
+         transform="translate(536.1,417.5) rotate(45)"
+         stroke="none"
+         fill="black"
+         font-family="Arial"
+         font-size="12.00"
+         text-anchor="start"
+         id="g5051">
+        <text
+           id="text5053">
+          <tspan
+             font-family="Arial"
+             id="tspan5055"> 5.23599</tspan>
+        </text>
+      </g>
+    </g>
+    <g
+       fill="none"
+       color="black"
+       stroke="currentColor"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g5057">
+      <path
+         stroke="black"
+         d="M553.3,409.2 L553.3,400.2 M553.3,16.7 L553.3,25.7  "
+         id="path5059" />
+      <g
+         transform="translate(557.8,417.5) rotate(45)"
+         stroke="none"
+         fill="black"
+         font-family="Arial"
+         font-size="12.00"
+         text-anchor="start"
+         id="g5061">
+        <text
+           id="text5063">
+          <tspan
+             font-family="Arial"
+             id="tspan5065"> 5.75959</tspan>
+        </text>
+      </g>
+    </g>
+    <g
+       fill="none"
+       color="black"
+       stroke="currentColor"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g5067">
+      <path
+         stroke="black"
+         d="M575.0,409.2 L575.0,400.2 M575.0,16.7 L575.0,25.7  "
+         id="path5069" />
+      <g
+         transform="translate(579.5,417.5) rotate(45)"
+         stroke="none"
+         fill="black"
+         font-family="Arial"
+         font-size="12.00"
+         text-anchor="start"
+         id="g5071">
+        <text
+           id="text5073">
+          <tspan
+             font-family="Arial"
+             id="tspan5075"> 6.28319</tspan>
+        </text>
+      </g>
+    </g>
+    <g
+       fill="none"
+       color="black"
+       stroke="currentColor"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g5077" />
+    <g
+       fill="none"
+       color="black"
+       stroke="currentColor"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g5079">
+      <path
+         stroke="rgb(  0,   0,   0)"
+         d="M53.9,212.9 L575.0,212.9  "
+         id="path5081" />
+    </g>
+    <g
+       fill="none"
+       color="black"
+       stroke="currentColor"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g5083">
+      <path
+         stroke="rgb(  0,   0,   0)"
+         d="M314.5,409.2 L314.5,16.7  "
+         id="path5085" />
+    </g>
+    <g
+       fill="none"
+       color="black"
+       stroke="currentColor"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g5087">
+      <path
+         stroke="black"
+         d="M53.9,16.7 L53.9,409.2 L575.0,409.2 L575.0,16.7 L53.9,16.7 Z  "
+         id="path5089" />
+    </g>
+    <g
+       fill="none"
+       color="black"
+       stroke="currentColor"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g5091" />
+    <g
+       id="gnuplot_plot_1">
+      <title
+         id="title5094">y=sen(x)</title>
+      <g
+         fill="none"
+         color="black"
+         stroke="currentColor"
+         stroke-width="1.00"
+         stroke-linecap="butt"
+         stroke-linejoin="miter"
+         id="g5096">
+        <g
+           transform="translate(507.9,39.2)"
+           stroke="none"
+           fill="black"
+           font-family="Arial"
+           font-size="12.00"
+           text-anchor="end"
+           id="g5098">
+          <text
+             id="text5100">
+            <tspan
+               font-family="Arial"
+               id="tspan5102">y=sen(x)</tspan>
+          </text>
+        </g>
+      </g>
+      <g
+         fill="none"
+         color="black"
+         stroke="currentColor"
+         stroke-width="1.00"
+         stroke-linecap="butt"
+         stroke-linejoin="miter"
+         id="g5104">
+        <path
+           stroke="rgb(148,   0, 211)"
+           d="M516.2,34.7 L558.4,34.7 M53.9,212.9 L59.2,188.1 L64.4,163.7 L69.7,140.0 L75.0,117.5 L80.2,96.6   L85.5,77.5 L90.7,60.6 L96.0,46.2 L101.3,34.4 L106.5,25.6 L111.8,19.7 L117.1,16.9 L122.3,17.3   L127.6,20.9 L132.9,27.5 L138.1,37.1 L143.4,49.6 L148.6,64.6 L153.9,82.1 L159.2,101.7 L164.4,123.0   L169.7,145.8 L175.0,169.7 L180.2,194.3 L185.5,219.2 L190.8,244.0 L196.0,268.2 L201.3,291.6 L206.5,313.8   L211.8,334.3 L217.1,352.8 L222.3,369.1 L227.6,382.9 L232.9,394.0 L238.1,402.1 L243.4,407.2 L248.7,409.2   L253.9,408.0 L259.2,403.7 L264.4,396.3 L269.7,385.9 L275.0,372.8 L280.2,357.1 L285.5,339.1 L290.8,319.1   L296.0,297.3 L301.3,274.2 L306.6,250.1 L311.8,225.4 L317.1,200.5 L322.3,175.8 L327.6,151.7 L332.9,128.6   L338.1,106.8 L343.4,86.8 L348.7,68.8 L353.9,53.1 L359.2,40.0 L364.5,29.6 L369.7,22.2 L375.0,17.9   L380.2,16.7 L385.5,18.7 L390.8,23.8 L396.0,31.9 L401.3,43.0 L406.6,56.8 L411.8,73.1 L417.1,91.6   L422.4,112.1 L427.6,134.3 L432.9,157.7 L438.1,181.9 L443.4,206.7 L448.7,231.6 L453.9,256.2 L459.2,280.1   L464.5,302.9 L469.7,324.2 L475.0,343.8 L480.3,361.3 L485.5,376.3 L490.8,388.8 L496.0,398.4 L501.3,405.0   L506.6,408.6 L511.8,409.0 L517.1,406.2 L522.4,400.3 L527.6,391.5 L532.9,379.7 L538.2,365.3 L543.4,348.4   L548.7,329.3 L553.9,308.4 L559.2,285.9 L564.5,262.2 L569.7,237.8  "
+           id="path5106" />
+      </g>
+    </g>
+    <g
+       fill="none"
+       color="white"
+       stroke="rgb(148,   0, 211)"
+       stroke-width="2.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g5108" />
+    <g
+       fill="none"
+       color="black"
+       stroke="currentColor"
+       stroke-width="2.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g5110" />
+    <g
+       fill="none"
+       color="black"
+       stroke="black"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g5112" />
+    <g
+       fill="none"
+       color="black"
+       stroke="currentColor"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g5114">
+      <path
+         stroke="black"
+         d="M53.9,16.7 L53.9,409.2 L575.0,409.2 L575.0,16.7 L53.9,16.7 Z  "
+         id="path5116" />
+    </g>
+    <g
+       fill="none"
+       color="black"
+       stroke="currentColor"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g5118" />
+  </g>
+  <g
+     fill="none"
+     color="black"
+     stroke="black"
+     stroke-width="1.00"
+     stroke-linecap="butt"
+     stroke-linejoin="miter"
+     id="g5120" />
+  <g
+     fill="none"
+     color="black"
+     stroke="currentColor"
+     stroke-width="1.00"
+     stroke-linecap="butt"
+     stroke-linejoin="miter"
+     id="g5122">
+    <path
+       stroke="black"
+       d="M53.9,409.2 L62.9,409.2 M575.0,409.2 L566.0,409.2  "
+       id="path5124" />
+    <g
+       transform="translate(45.6,413.7)"
+       stroke="none"
+       fill="black"
+       font-family="Arial"
+       font-size="12.00"
+       text-anchor="end"
+       id="g5126">
+      <text
+         id="text5128">
+        <tspan
+           font-family="Arial"
+           id="tspan5130">-1</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     fill="none"
+     color="black"
+     stroke="currentColor"
+     stroke-width="1.00"
+     stroke-linecap="butt"
+     stroke-linejoin="miter"
+     id="g5132">
+    <path
+       stroke="black"
+       d="M53.9,370.0 L62.9,370.0 M575.0,370.0 L566.0,370.0  "
+       id="path5134" />
+    <g
+       transform="translate(45.6,374.5)"
+       stroke="none"
+       fill="black"
+       font-family="Arial"
+       font-size="12.00"
+       text-anchor="end"
+       id="g5136">
+      <text
+         id="text5138">
+        <tspan
+           font-family="Arial"
+           id="tspan5140">-0.8</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     fill="none"
+     color="black"
+     stroke="currentColor"
+     stroke-width="1.00"
+     stroke-linecap="butt"
+     stroke-linejoin="miter"
+     id="g5142">
+    <path
+       stroke="black"
+       d="M53.9,330.7 L62.9,330.7 M575.0,330.7 L566.0,330.7  "
+       id="path5144" />
+    <g
+       transform="translate(45.6,335.2)"
+       stroke="none"
+       fill="black"
+       font-family="Arial"
+       font-size="12.00"
+       text-anchor="end"
+       id="g5146">
+      <text
+         id="text5148">
+        <tspan
+           font-family="Arial"
+           id="tspan5150">-0.6</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     fill="none"
+     color="black"
+     stroke="currentColor"
+     stroke-width="1.00"
+     stroke-linecap="butt"
+     stroke-linejoin="miter"
+     id="g5152">
+    <path
+       stroke="black"
+       d="M53.9,291.5 L62.9,291.5 M575.0,291.5 L566.0,291.5  "
+       id="path5154" />
+    <g
+       transform="translate(45.6,296.0)"
+       stroke="none"
+       fill="black"
+       font-family="Arial"
+       font-size="12.00"
+       text-anchor="end"
+       id="g5156">
+      <text
+         id="text5158">
+        <tspan
+           font-family="Arial"
+           id="tspan5160">-0.4</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     fill="none"
+     color="black"
+     stroke="currentColor"
+     stroke-width="1.00"
+     stroke-linecap="butt"
+     stroke-linejoin="miter"
+     id="g5162">
+    <path
+       stroke="black"
+       d="M53.9,252.2 L62.9,252.2 M575.0,252.2 L566.0,252.2  "
+       id="path5164" />
+    <g
+       transform="translate(45.6,256.7)"
+       stroke="none"
+       fill="black"
+       font-family="Arial"
+       font-size="12.00"
+       text-anchor="end"
+       id="g5166">
+      <text
+         id="text5168">
+        <tspan
+           font-family="Arial"
+           id="tspan5170">-0.2</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     fill="none"
+     color="black"
+     stroke="currentColor"
+     stroke-width="1.00"
+     stroke-linecap="butt"
+     stroke-linejoin="miter"
+     id="g5172">
+    <path
+       stroke="black"
+       d="M53.9,213.0 L62.9,213.0 M575.0,213.0 L566.0,213.0  "
+       id="path5174" />
+    <g
+       transform="translate(45.6,217.5)"
+       stroke="none"
+       fill="black"
+       font-family="Arial"
+       font-size="12.00"
+       text-anchor="end"
+       id="g5176">
+      <text
+         id="text5178">
+        <tspan
+           font-family="Arial"
+           id="tspan5180"> 0</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     fill="none"
+     color="black"
+     stroke="currentColor"
+     stroke-width="1.00"
+     stroke-linecap="butt"
+     stroke-linejoin="miter"
+     id="g5182">
+    <path
+       stroke="black"
+       d="M53.9,173.7 L62.9,173.7 M575.0,173.7 L566.0,173.7  "
+       id="path5184" />
+    <g
+       transform="translate(45.6,178.2)"
+       stroke="none"
+       fill="black"
+       font-family="Arial"
+       font-size="12.00"
+       text-anchor="end"
+       id="g5186">
+      <text
+         id="text5188">
+        <tspan
+           font-family="Arial"
+           id="tspan5190"> 0.2</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     fill="none"
+     color="black"
+     stroke="currentColor"
+     stroke-width="1.00"
+     stroke-linecap="butt"
+     stroke-linejoin="miter"
+     id="g5192">
+    <path
+       stroke="black"
+       d="M53.9,134.5 L62.9,134.5 M575.0,134.5 L566.0,134.5  "
+       id="path5194" />
+    <g
+       transform="translate(45.6,139.0)"
+       stroke="none"
+       fill="black"
+       font-family="Arial"
+       font-size="12.00"
+       text-anchor="end"
+       id="g5196">
+      <text
+         id="text5198">
+        <tspan
+           font-family="Arial"
+           id="tspan5200"> 0.4</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     fill="none"
+     color="black"
+     stroke="currentColor"
+     stroke-width="1.00"
+     stroke-linecap="butt"
+     stroke-linejoin="miter"
+     id="g5202">
+    <path
+       stroke="black"
+       d="M53.9,95.2 L62.9,95.2 M575.0,95.2 L566.0,95.2  "
+       id="path5204" />
+    <g
+       transform="translate(45.6,99.7)"
+       stroke="none"
+       fill="black"
+       font-family="Arial"
+       font-size="12.00"
+       text-anchor="end"
+       id="g5206">
+      <text
+         id="text5208">
+        <tspan
+           font-family="Arial"
+           id="tspan5210"> 0.6</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     fill="none"
+     color="black"
+     stroke="currentColor"
+     stroke-width="1.00"
+     stroke-linecap="butt"
+     stroke-linejoin="miter"
+     id="g5212">
+    <path
+       stroke="black"
+       d="M53.9,55.9 L62.9,55.9 M575.0,55.9 L566.0,55.9  "
+       id="path5214" />
+    <g
+       transform="translate(45.6,60.4)"
+       stroke="none"
+       fill="black"
+       font-family="Arial"
+       font-size="12.00"
+       text-anchor="end"
+       id="g5216">
+      <text
+         id="text5218">
+        <tspan
+           font-family="Arial"
+           id="tspan5220"> 0.8</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     fill="none"
+     color="black"
+     stroke="currentColor"
+     stroke-width="1.00"
+     stroke-linecap="butt"
+     stroke-linejoin="miter"
+     id="g5222">
+    <path
+       stroke="black"
+       d="M53.9,16.7 L62.9,16.7 M575.0,16.7 L566.0,16.7  "
+       id="path5224" />
+    <g
+       transform="translate(45.6,21.2)"
+       stroke="none"
+       fill="black"
+       font-family="Arial"
+       font-size="12.00"
+       text-anchor="end"
+       id="g5226">
+      <text
+         id="text5228">
+        <tspan
+           font-family="Arial"
+           id="tspan5230"> 1</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     fill="none"
+     color="black"
+     stroke="currentColor"
+     stroke-width="1.00"
+     stroke-linecap="butt"
+     stroke-linejoin="miter"
+     id="g5232">
+    <path
+       stroke="black"
+       d="M53.9,409.2 L53.9,400.2 M53.9,16.7 L53.9,25.7  "
+       id="path5234" />
+    <g
+       transform="translate(58.4,417.5) rotate(45)"
+       stroke="none"
+       fill="black"
+       font-family="Arial"
+       font-size="12.00"
+       text-anchor="start"
+       id="g5236">
+      <text
+         id="text5238">
+        <tspan
+           font-family="Arial"
+           id="tspan5240">-6.28319</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     fill="none"
+     color="black"
+     stroke="currentColor"
+     stroke-width="1.00"
+     stroke-linecap="butt"
+     stroke-linejoin="miter"
+     id="g5242">
+    <path
+       stroke="black"
+       d="M75.6,409.2 L75.6,400.2 M75.6,16.7 L75.6,25.7  "
+       id="path5244" />
+    <g
+       transform="translate(80.1,417.5) rotate(45)"
+       stroke="none"
+       fill="black"
+       font-family="Arial"
+       font-size="12.00"
+       text-anchor="start"
+       id="g5246">
+      <text
+         id="text5248">
+        <tspan
+           font-family="Arial"
+           id="tspan5250">-5.75959</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     fill="none"
+     color="black"
+     stroke="currentColor"
+     stroke-width="1.00"
+     stroke-linecap="butt"
+     stroke-linejoin="miter"
+     id="g5252">
+    <path
+       stroke="black"
+       d="M97.3,409.2 L97.3,400.2 M97.3,16.7 L97.3,25.7  "
+       id="path5254" />
+    <g
+       transform="translate(101.8,417.5) rotate(45)"
+       stroke="none"
+       fill="black"
+       font-family="Arial"
+       font-size="12.00"
+       text-anchor="start"
+       id="g5256">
+      <text
+         id="text5258">
+        <tspan
+           font-family="Arial"
+           id="tspan5260">-5.23599</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     fill="none"
+     color="black"
+     stroke="currentColor"
+     stroke-width="1.00"
+     stroke-linecap="butt"
+     stroke-linejoin="miter"
+     id="g5262">
+    <path
+       stroke="black"
+       d="M119.0,409.2 L119.0,400.2 M119.0,16.7 L119.0,25.7  "
+       id="path5264" />
+    <g
+       transform="translate(123.5,417.5) rotate(45)"
+       stroke="none"
+       fill="black"
+       font-family="Arial"
+       font-size="12.00"
+       text-anchor="start"
+       id="g5266">
+      <text
+         id="text5268">
+        <tspan
+           font-family="Arial"
+           id="tspan5270">-4.71239</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     fill="none"
+     color="black"
+     stroke="currentColor"
+     stroke-width="1.00"
+     stroke-linecap="butt"
+     stroke-linejoin="miter"
+     id="g5272">
+    <path
+       stroke="black"
+       d="M140.8,409.2 L140.8,400.2 M140.8,16.7 L140.8,25.7  "
+       id="path5274" />
+    <g
+       transform="translate(145.3,417.5) rotate(45)"
+       stroke="none"
+       fill="black"
+       font-family="Arial"
+       font-size="12.00"
+       text-anchor="start"
+       id="g5276">
+      <text
+         id="text5278">
+        <tspan
+           font-family="Arial"
+           id="tspan5280">-4.18879</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     fill="none"
+     color="black"
+     stroke="currentColor"
+     stroke-width="1.00"
+     stroke-linecap="butt"
+     stroke-linejoin="miter"
+     id="g5282">
+    <path
+       stroke="black"
+       d="M162.5,409.2 L162.5,400.2 M162.5,16.7 L162.5,25.7  "
+       id="path5284" />
+    <g
+       transform="translate(167.0,417.5) rotate(45)"
+       stroke="none"
+       fill="black"
+       font-family="Arial"
+       font-size="12.00"
+       text-anchor="start"
+       id="g5286">
+      <text
+         id="text5288">
+        <tspan
+           font-family="Arial"
+           id="tspan5290">-3.66519</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     fill="none"
+     color="black"
+     stroke="currentColor"
+     stroke-width="1.00"
+     stroke-linecap="butt"
+     stroke-linejoin="miter"
+     id="g5292">
+    <path
+       stroke="black"
+       d="M184.2,409.2 L184.2,400.2 M184.2,16.7 L184.2,25.7  "
+       id="path5294" />
+    <g
+       transform="translate(188.7,417.5) rotate(45)"
+       stroke="none"
+       fill="black"
+       font-family="Arial"
+       font-size="12.00"
+       text-anchor="start"
+       id="g5296">
+      <text
+         id="text5298">
+        <tspan
+           font-family="Arial"
+           id="tspan5300">-3.14159</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     fill="none"
+     color="black"
+     stroke="currentColor"
+     stroke-width="1.00"
+     stroke-linecap="butt"
+     stroke-linejoin="miter"
+     id="g5302">
+    <path
+       stroke="black"
+       d="M205.9,409.2 L205.9,400.2 M205.9,16.7 L205.9,25.7  "
+       id="path5304" />
+    <g
+       transform="translate(210.4,417.5) rotate(45)"
+       stroke="none"
+       fill="black"
+       font-family="Arial"
+       font-size="12.00"
+       text-anchor="start"
+       id="g5306">
+      <text
+         id="text5308">
+        <tspan
+           font-family="Arial"
+           id="tspan5310">-2.61799</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     fill="none"
+     color="black"
+     stroke="currentColor"
+     stroke-width="1.00"
+     stroke-linecap="butt"
+     stroke-linejoin="miter"
+     id="g5312">
+    <path
+       stroke="black"
+       d="M227.6,409.2 L227.6,400.2 M227.6,16.7 L227.6,25.7  "
+       id="path5314" />
+    <g
+       transform="translate(232.1,417.5) rotate(45)"
+       stroke="none"
+       fill="black"
+       font-family="Arial"
+       font-size="12.00"
+       text-anchor="start"
+       id="g5316">
+      <text
+         id="text5318">
+        <tspan
+           font-family="Arial"
+           id="tspan5320">-2.0944</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     fill="none"
+     color="black"
+     stroke="currentColor"
+     stroke-width="1.00"
+     stroke-linecap="butt"
+     stroke-linejoin="miter"
+     id="g5322">
+    <path
+       stroke="black"
+       d="M249.3,409.2 L249.3,400.2 M249.3,16.7 L249.3,25.7  "
+       id="path5324" />
+    <g
+       transform="translate(253.8,417.5) rotate(45)"
+       stroke="none"
+       fill="black"
+       font-family="Arial"
+       font-size="12.00"
+       text-anchor="start"
+       id="g5326">
+      <text
+         id="text5328">
+        <tspan
+           font-family="Arial"
+           id="tspan5330">-1.5708</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     fill="none"
+     color="black"
+     stroke="currentColor"
+     stroke-width="1.00"
+     stroke-linecap="butt"
+     stroke-linejoin="miter"
+     id="g5332">
+    <path
+       stroke="black"
+       d="M271.0,409.2 L271.0,400.2 M271.0,16.7 L271.0,25.7  "
+       id="path5334" />
+    <g
+       transform="translate(275.5,417.5) rotate(45)"
+       stroke="none"
+       fill="black"
+       font-family="Arial"
+       font-size="12.00"
+       text-anchor="start"
+       id="g5336">
+      <text
+         id="text5338">
+        <tspan
+           font-family="Arial"
+           id="tspan5340">-1.0472</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     fill="none"
+     color="black"
+     stroke="currentColor"
+     stroke-width="1.00"
+     stroke-linecap="butt"
+     stroke-linejoin="miter"
+     id="g5342">
+    <path
+       stroke="black"
+       d="M292.7,409.2 L292.7,400.2 M292.7,16.7 L292.7,25.7  "
+       id="path5344" />
+    <g
+       transform="translate(297.2,417.5) rotate(45)"
+       stroke="none"
+       fill="black"
+       font-family="Arial"
+       font-size="12.00"
+       text-anchor="start"
+       id="g5346">
+      <text
+         id="text5348">
+        <tspan
+           font-family="Arial"
+           id="tspan5350">-0.523599</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     fill="none"
+     color="black"
+     stroke="currentColor"
+     stroke-width="1.00"
+     stroke-linecap="butt"
+     stroke-linejoin="miter"
+     id="g5352">
+    <path
+       stroke="black"
+       d="M314.5,409.2 L314.5,400.2 M314.5,16.7 L314.5,25.7  "
+       id="path5354" />
+    <g
+       transform="translate(319.0,417.5) rotate(45)"
+       stroke="none"
+       fill="black"
+       font-family="Arial"
+       font-size="12.00"
+       text-anchor="start"
+       id="g5356">
+      <text
+         id="text5358">
+        <tspan
+           font-family="Arial"
+           id="tspan5360"> 0</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     fill="none"
+     color="black"
+     stroke="currentColor"
+     stroke-width="1.00"
+     stroke-linecap="butt"
+     stroke-linejoin="miter"
+     id="g5362">
+    <path
+       stroke="black"
+       d="M336.2,409.2 L336.2,400.2 M336.2,16.7 L336.2,25.7  "
+       id="path5364" />
+    <g
+       transform="translate(340.7,417.5) rotate(45)"
+       stroke="none"
+       fill="black"
+       font-family="Arial"
+       font-size="12.00"
+       text-anchor="start"
+       id="g5366">
+      <text
+         id="text5368">
+        <tspan
+           font-family="Arial"
+           id="tspan5370"> 0.523599</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     fill="none"
+     color="black"
+     stroke="currentColor"
+     stroke-width="1.00"
+     stroke-linecap="butt"
+     stroke-linejoin="miter"
+     id="g5372">
+    <path
+       stroke="black"
+       d="M357.9,409.2 L357.9,400.2 M357.9,16.7 L357.9,25.7  "
+       id="path5374" />
+    <g
+       transform="translate(362.4,417.5) rotate(45)"
+       stroke="none"
+       fill="black"
+       font-family="Arial"
+       font-size="12.00"
+       text-anchor="start"
+       id="g5376">
+      <text
+         id="text5378">
+        <tspan
+           font-family="Arial"
+           id="tspan5380"> 1.0472</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     fill="none"
+     color="black"
+     stroke="currentColor"
+     stroke-width="1.00"
+     stroke-linecap="butt"
+     stroke-linejoin="miter"
+     id="g5382">
+    <path
+       stroke="black"
+       d="M379.6,409.2 L379.6,400.2 M379.6,16.7 L379.6,25.7  "
+       id="path5384" />
+    <g
+       transform="translate(384.1,417.5) rotate(45)"
+       stroke="none"
+       fill="black"
+       font-family="Arial"
+       font-size="12.00"
+       text-anchor="start"
+       id="g5386">
+      <text
+         id="text5388">
+        <tspan
+           id="tspan5390"
+           style="font-family:Arial" />
+      </text>
+    </g>
+  </g>
+  <g
+     fill="none"
+     color="black"
+     stroke="currentColor"
+     stroke-width="1.00"
+     stroke-linecap="butt"
+     stroke-linejoin="miter"
+     id="g5392">
+    <path
+       stroke="black"
+       d="M401.3,409.2 L401.3,400.2 M401.3,16.7 L401.3,25.7  "
+       id="path5394" />
+    <g
+       transform="translate(405.8,417.5) rotate(45)"
+       stroke="none"
+       fill="black"
+       font-family="Arial"
+       font-size="12.00"
+       text-anchor="start"
+       id="g5396">
+      <text
+         id="text5398">
+        <tspan
+           font-family="Arial"
+           id="tspan5400"> 2.0944</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     fill="none"
+     color="black"
+     stroke="currentColor"
+     stroke-width="1.00"
+     stroke-linecap="butt"
+     stroke-linejoin="miter"
+     id="g5402">
+    <path
+       stroke="black"
+       d="M423.0,409.2 L423.0,400.2 M423.0,16.7 L423.0,25.7  "
+       id="path5404" />
+    <g
+       transform="translate(427.5,417.5) rotate(45)"
+       stroke="none"
+       fill="black"
+       font-family="Arial"
+       font-size="12.00"
+       text-anchor="start"
+       id="g5406">
+      <text
+         id="text5408">
+        <tspan
+           font-family="Arial"
+           id="tspan5410"> 2.61799</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     fill="none"
+     color="black"
+     stroke="currentColor"
+     stroke-width="1.00"
+     stroke-linecap="butt"
+     stroke-linejoin="miter"
+     id="g5412">
+    <path
+       stroke="black"
+       d="M444.7,409.2 L444.7,400.2 M444.7,16.7 L444.7,25.7  "
+       id="path5414" />
+    <g
+       transform="translate(449.2,417.5) rotate(45)"
+       stroke="none"
+       fill="black"
+       font-family="Arial"
+       font-size="12.00"
+       text-anchor="start"
+       id="g5416">
+      <text
+         id="text5418">
+        <tspan
+           font-family="Arial"
+           id="tspan5420"> 3.14159</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     fill="none"
+     color="black"
+     stroke="currentColor"
+     stroke-width="1.00"
+     stroke-linecap="butt"
+     stroke-linejoin="miter"
+     id="g5422">
+    <path
+       stroke="black"
+       d="M466.4,409.2 L466.4,400.2 M466.4,16.7 L466.4,25.7  "
+       id="path5424" />
+    <g
+       transform="translate(470.9,417.5) rotate(45)"
+       stroke="none"
+       fill="black"
+       font-family="Arial"
+       font-size="12.00"
+       text-anchor="start"
+       id="g5426">
+      <text
+         id="text5428">
+        <tspan
+           font-family="Arial"
+           id="tspan5430"> 3.66519</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     fill="none"
+     color="black"
+     stroke="currentColor"
+     stroke-width="1.00"
+     stroke-linecap="butt"
+     stroke-linejoin="miter"
+     id="g5432">
+    <path
+       stroke="black"
+       d="M488.2,409.2 L488.2,400.2 M488.2,16.7 L488.2,25.7  "
+       id="path5434" />
+    <g
+       transform="translate(492.7,417.5) rotate(45)"
+       stroke="none"
+       fill="black"
+       font-family="Arial"
+       font-size="12.00"
+       text-anchor="start"
+       id="g5436">
+      <text
+         id="text5438">
+        <tspan
+           font-family="Arial"
+           id="tspan5440"> 4.18879</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     fill="none"
+     color="black"
+     stroke="currentColor"
+     stroke-width="1.00"
+     stroke-linecap="butt"
+     stroke-linejoin="miter"
+     id="g5442">
+    <path
+       stroke="black"
+       d="M509.9,409.2 L509.9,400.2 M509.9,16.7 L509.9,25.7  "
+       id="path5444" />
+    <g
+       transform="translate(514.4,417.5) rotate(45)"
+       stroke="none"
+       fill="black"
+       font-family="Arial"
+       font-size="12.00"
+       text-anchor="start"
+       id="g5446">
+      <text
+         id="text5448">
+        <tspan
+           font-family="Arial"
+           id="tspan5450"> 4.71239</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     fill="none"
+     color="black"
+     stroke="currentColor"
+     stroke-width="1.00"
+     stroke-linecap="butt"
+     stroke-linejoin="miter"
+     id="g5452">
+    <path
+       stroke="black"
+       d="M531.6,409.2 L531.6,400.2 M531.6,16.7 L531.6,25.7  "
+       id="path5454" />
+    <g
+       transform="translate(536.1,417.5) rotate(45)"
+       stroke="none"
+       fill="black"
+       font-family="Arial"
+       font-size="12.00"
+       text-anchor="start"
+       id="g5456">
+      <text
+         id="text5458">
+        <tspan
+           font-family="Arial"
+           id="tspan5460"> 5.23599</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     fill="none"
+     color="black"
+     stroke="currentColor"
+     stroke-width="1.00"
+     stroke-linecap="butt"
+     stroke-linejoin="miter"
+     id="g5462">
+    <path
+       stroke="black"
+       d="M553.3,409.2 L553.3,400.2 M553.3,16.7 L553.3,25.7  "
+       id="path5464" />
+    <g
+       transform="translate(557.8,417.5) rotate(45)"
+       stroke="none"
+       fill="black"
+       font-family="Arial"
+       font-size="12.00"
+       text-anchor="start"
+       id="g5466">
+      <text
+         id="text5468">
+        <tspan
+           font-family="Arial"
+           id="tspan5470"> 5.75959</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     fill="none"
+     color="black"
+     stroke="currentColor"
+     stroke-width="1.00"
+     stroke-linecap="butt"
+     stroke-linejoin="miter"
+     id="g5472">
+    <path
+       stroke="black"
+       d="M575.0,409.2 L575.0,400.2 M575.0,16.7 L575.0,25.7  "
+       id="path5474" />
+    <g
+       transform="translate(579.5,417.5) rotate(45)"
+       stroke="none"
+       fill="black"
+       font-family="Arial"
+       font-size="12.00"
+       text-anchor="start"
+       id="g5476">
+      <text
+         id="text5478">
+        <tspan
+           font-family="Arial"
+           id="tspan5480"> 6.28319</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     fill="none"
+     color="black"
+     stroke="currentColor"
+     stroke-width="1.00"
+     stroke-linecap="butt"
+     stroke-linejoin="miter"
+     id="g5482" />
+  <g
+     fill="none"
+     color="black"
+     stroke="currentColor"
+     stroke-width="1.00"
+     stroke-linecap="butt"
+     stroke-linejoin="miter"
+     id="g5484">
+    <path
+       stroke="rgb(  0,   0,   0)"
+       d="M53.9,212.9 L575.0,212.9  "
+       id="path5486" />
+  </g>
+  <g
+     fill="none"
+     color="black"
+     stroke="currentColor"
+     stroke-width="1.00"
+     stroke-linecap="butt"
+     stroke-linejoin="miter"
+     id="g5488">
+    <path
+       stroke="rgb(  0,   0,   0)"
+       d="M314.5,409.2 L314.5,16.7  "
+       id="path5490" />
+  </g>
+  <g
+     fill="none"
+     color="black"
+     stroke="currentColor"
+     stroke-width="1.00"
+     stroke-linecap="butt"
+     stroke-linejoin="miter"
+     id="g5492">
+    <path
+       stroke="black"
+       d="M53.9,16.7 L53.9,409.2 L575.0,409.2 L575.0,16.7 L53.9,16.7 Z  "
+       id="path5494" />
+  </g>
+  <g
+     fill="none"
+     color="black"
+     stroke="currentColor"
+     stroke-width="1.00"
+     stroke-linecap="butt"
+     stroke-linejoin="miter"
+     id="g5496" />
+  <g
+     id="g5498">
+    <title
+       id="title5500">y=sen(x)</title>
+    <g
+       fill="none"
+       color="black"
+       stroke="currentColor"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g5502">
+      <g
+         transform="translate(507.9,39.2)"
+         stroke="none"
+         fill="black"
+         font-family="Arial"
+         font-size="12.00"
+         text-anchor="end"
+         id="g5504">
+        <text
+           id="text5506">
+          <tspan
+             font-family="Arial"
+             id="tspan5508">y=sen(x)</tspan>
+        </text>
+      </g>
+    </g>
+    <g
+       fill="none"
+       color="black"
+       stroke="currentColor"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g5510">
+      <path
+         stroke="rgb(148,   0, 211)"
+         d="M516.2,34.7 L558.4,34.7 M53.9,212.9 L59.2,188.1 L64.4,163.7 L69.7,140.0 L75.0,117.5 L80.2,96.6   L85.5,77.5 L90.7,60.6 L96.0,46.2 L101.3,34.4 L106.5,25.6 L111.8,19.7 L117.1,16.9 L122.3,17.3   L127.6,20.9 L132.9,27.5 L138.1,37.1 L143.4,49.6 L148.6,64.6 L153.9,82.1 L159.2,101.7 L164.4,123.0   L169.7,145.8 L175.0,169.7 L180.2,194.3 L185.5,219.2 L190.8,244.0 L196.0,268.2 L201.3,291.6 L206.5,313.8   L211.8,334.3 L217.1,352.8 L222.3,369.1 L227.6,382.9 L232.9,394.0 L238.1,402.1 L243.4,407.2 L248.7,409.2   L253.9,408.0 L259.2,403.7 L264.4,396.3 L269.7,385.9 L275.0,372.8 L280.2,357.1 L285.5,339.1 L290.8,319.1   L296.0,297.3 L301.3,274.2 L306.6,250.1 L311.8,225.4 L317.1,200.5 L322.3,175.8 L327.6,151.7 L332.9,128.6   L338.1,106.8 L343.4,86.8 L348.7,68.8 L353.9,53.1 L359.2,40.0 L364.5,29.6 L369.7,22.2 L375.0,17.9   L380.2,16.7 L385.5,18.7 L390.8,23.8 L396.0,31.9 L401.3,43.0 L406.6,56.8 L411.8,73.1 L417.1,91.6   L422.4,112.1 L427.6,134.3 L432.9,157.7 L438.1,181.9 L443.4,206.7 L448.7,231.6 L453.9,256.2 L459.2,280.1   L464.5,302.9 L469.7,324.2 L475.0,343.8 L480.3,361.3 L485.5,376.3 L490.8,388.8 L496.0,398.4 L501.3,405.0   L506.6,408.6 L511.8,409.0 L517.1,406.2 L522.4,400.3 L527.6,391.5 L532.9,379.7 L538.2,365.3 L543.4,348.4   L548.7,329.3 L553.9,308.4 L559.2,285.9 L564.5,262.2 L569.7,237.8  "
+         id="path5512" />
+    </g>
+  </g>
+  <g
+     fill="none"
+     color="white"
+     stroke="rgb(148,   0, 211)"
+     stroke-width="2.00"
+     stroke-linecap="butt"
+     stroke-linejoin="miter"
+     id="g5514" />
+  <g
+     fill="none"
+     color="black"
+     stroke="currentColor"
+     stroke-width="2.00"
+     stroke-linecap="butt"
+     stroke-linejoin="miter"
+     id="g5516" />
+  <g
+     fill="none"
+     color="black"
+     stroke="black"
+     stroke-width="1.00"
+     stroke-linecap="butt"
+     stroke-linejoin="miter"
+     id="g5518" />
+  <g
+     fill="none"
+     color="black"
+     stroke="currentColor"
+     stroke-width="1.00"
+     stroke-linecap="butt"
+     stroke-linejoin="miter"
+     id="g5520">
+    <path
+       stroke="black"
+       d="M53.9,16.7 L53.9,409.2 L575.0,409.2 L575.0,16.7 L53.9,16.7 Z  "
+       id="path5522" />
+  </g>
+  <g
+     fill="none"
+     color="black"
+     stroke="currentColor"
+     stroke-width="1.00"
+     stroke-linecap="butt"
+     stroke-linejoin="miter"
+     id="g5524" />
+</svg>

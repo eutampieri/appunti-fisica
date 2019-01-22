@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   id="svg4257"
+   viewBox="0 0 744.09449 488.97638"
+   height="138mm"
+   width="210mm">
+  <defs
+     id="defs4259" />
+  <metadata
+     id="metadata4262">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(0,-563.38583)"
+     id="layer1">
+    <g
+       transform="matrix(2.3928052,0,0,2.3928052,-118.82901,-173.20577)"
+       id="g4196">
+      <g
+         style="font-style:normal;font-weight:400;font-size:13.75px;font-family:Ubuntu;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+         id="g22"
+         font-style="normal"
+         font-weight="400"
+         font-size="13.75">
+        <polyline
+           style="fill:none"
+           id="polyline24"
+           points="53.3392,308.716 53.3392,510.284 "
+           vector-effect="non-scaling-stroke" />
+        <polyline
+           style="fill:none"
+           id="polyline26"
+           points="53.3392,510.284 351.661,510.284 "
+           vector-effect="non-scaling-stroke" />
+        <polyline
+           style="fill:none"
+           id="polyline28"
+           points="351.661,510.284 53.3392,308.716 "
+           vector-effect="non-scaling-stroke" />
+      </g>
+      <g
+         style="font-style:normal;font-weight:400;font-size:13.75px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+         id="g30"
+         font-style="normal"
+         font-weight="400"
+         font-size="13.75"
+         transform="matrix(-0.828589,-0.559857,0.559857,-0.828589,351.661,510.284)">
+        <path
+           style="fill-rule:evenodd"
+           id="path32"
+           d="m 83.5107,0 c 0,-17.3261 -5.2763,-33.4199 -14.3099,-46.7621"
+           vector-effect="non-scaling-stroke" />
+      </g>
+    </g>
+    <text
+       id="text4218"
+       y="1014.937"
+       x="563.16644"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="1014.937"
+         x="563.16644"
+         id="tspan4220"> α</tspan></text>
+    <text
+       id="text4222"
+       y="1017.2167"
+       x="216.657"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="1017.2167"
+         x="216.657"
+         id="tspan4224">a</tspan></text>
+    <text
+       id="text4226"
+       y="830.284"
+       x="27.444529"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="830.284"
+         x="27.444529"
+         id="tspan4228">b</tspan></text>
+    <text
+       id="text4230"
+       y="782.41095"
+       x="376.2337"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="782.41095"
+         x="376.2337"
+         id="tspan4232">c</tspan></text>
+  </g>
+</svg>

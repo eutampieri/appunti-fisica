@@ -1,0 +1,166 @@
+\section{Il potenziale elettrico}
+\subsection{Energia potenziale elettrica}
+    \par Poiché la forza elettrica e la forza gravitazionale sono matematicamente simili, possiamo dedurre il concetto di energia potenziale elettrica sfruttando le conoscenze che abbiamo sull'energia potenziale gravitazionale
+    \begin{equation*}
+        \vec{F_e}=q\cdot E
+    \end{equation*}
+    \begin{equation}\label{eq:46lavoroForzaElettrica}
+        \vec{L_e}=\vec{F_e}\times \vec{s}=(q\cdot E)\cdot s \cdot \cos 0=(q\cdot E)\cdot (h_i-h_f) \cdot \cos 0=qEh_i-qEh_f
+    \end{equation}
+    \begin{equation}\label{eq:46epForzaElettrica}
+        \vec{E_{p_e}}=\pm qEh
+    \end{equation}
+    \par L'equazione \ref{eq:46lavoroForzaElettrica} rappresenta il \textbf{lavoro} compiuto dalla forza elettrica, mentre l'equazione \ref{eq:46epForzaElettrica} rappresenta l'\textbf{energia potenziale elettrica}. In quest'ultima va usato il segno $-$ nel caso in cui la piastra sia carica positivamente, altrimenti va usato il segno $+$.
+    \begin{equation} \label{eq:46epPiuCariche}
+        E_{p_e}=\frac{kq_{1}q_2}{(d_{12})} \enspace E_{p_e}\rightarrow 0 \enspace d \rightarrow +\infty
+    \end{equation}
+    \par L'equazione \ref{eq:46epPiuCariche} rappresenta l'energia potenziale elettrica di un \textbf{sistema costituito da due cariche puntiformi}.
+    \par In un sistema di più cariche l'$E_{p_e}$ è data dalla somma delle $E_{p_e}$ fra le coppie. con $n$ cariche puntiformi si hanno $n\choose2$ $E_{p_e}$ singole.
+    \begin{equation}\label{eq:46relDeltaEpe}
+        L_e=E_{p_e}^i-E_{p_e}^f
+    \end{equation}
+    \par Nell'equazione \ref{eq:46relDeltaEpe} viene espressa la relazione fra il lavoro compiuto dalla forza elettrica e la variazione di energia potenziale elettrica
+
+\subsection{Il potenziale elettrico}
+    \par Si definisce potenziale elettrico in un punto P dello spazio l'energia potenziale che avrebbe in quel punto la carica unitaria positiva.
+    \begin{equation} \label{eq:46potenzialeElettrico}
+        V=\frac{E_{p_e}}{q} \enspace [V]=\frac{J}{C}=V
+    \end{equation}
+    \esempio %controllare l'esempio
+    \par Calcolare il potenziale elettrico al variare della distanza rispetto ad una carica $Q=5,0\cdot10^{-7}C$
+    \par \textbf{Tabella}: \par \begin{tabular}{| l | l |}
+        \hline
+        $d$ & $V$\\ \hline
+        0,1 & 44950\\ \hline
+        0,5 & 8990\\ \hline
+        1 & 4495\\ \hline
+        1,5 & 2997\\ \hline
+        2 & 2248\\ \hline
+        2,5 & 1798\\ \hline
+        3 & 1498\\ \hline
+        3,5 & 1284\\ \hline
+        4 & 1124\\ \hline
+    \end{tabular} Ricordiamo che $V=\frac{kQ}{d}$
+    \par \textbf{Grafico}:\par \input{AppuntiTriennio/46-2-es-plt}
+    \subsubsection{Tabella riepilogativa dei potenziali elettrici}
+    \begin{tabular}{| l | c | c |}
+        \hline
+        & $E_{p_e}$ & $V$\\ \hline
+        Lastra piana negativa & $q \cdot E \cdot h$ & $E \cdot h$\\ \hline
+        Lastra piana positiva & $-q \cdot E \cdot h$ & $-E \cdot h$\\ \hline
+        Carica puntiforme & $\frac{kQq}{d}$ & $\frac{kQ}{d}$\\ \hline
+    \end{tabular}
+    \par In una zona dove è presente una qualche distribuzione di carica, che genera quindi un potenziale elettrico, il moto spontaneo della carica unitaria positiva avviene in direzione dei potenziali decrescenti.
+    \par Si definisce \textbf{superficie equipotenziale} una superficie in cui tutti i punti hanno lo stesso potenziale.
+    \subsubsection{Energia potenziale di una carica qualsiasi}
+    \begin{equation*}
+        E_{p_e}=V\cdot Q
+    \end{equation*}
+    \subsubsection{Energia potenziale di un insieme di cariche}
+    \par È sufficiente sommare \textbf{algebricamente} i potenziali dovuti all'insieme di cariche
+    \subsubsection{Concetto di elettronvolt}
+    $1 eV$ corrisponde all'energia cinetica che acquista un elettrone quando, lasciato libero di muoversi, viene sottoposto alla differenza di potenziale di $1 V$
+    \begin{equation*}
+        1 eV=1,60\cdot10^{-19}J
+    \end{equation*}
+\subsection{Relazione fra campo elettrico e variazione del potenziale elettrico}
+    \par Possiamo calcolare il lavoro compiuto dalla forza elettrica in due modi:
+    \begin{equation*}
+        L_e=\vec{F_e}\times \vec{s}
+    \end{equation*}
+    \begin{equation*}
+        E_{p_e}^i=E_{p_e}^f
+    \end{equation*}
+    \par Perciò:
+    \begin{equation*}
+        q\vec{E}\times \vec{s} = q(V_i-V_f)\enspace [J]
+    \end{equation*}
+    \begin{equation} \label{eq:46relCampoElettricoVarEPE}
+        \vec{E} \times \vec{s} = V_i-V_f\enspace [\frac{J}{C}]
+    \end{equation}
+    \par Il campo elettrico generato da una certa distribuzione di carica è sempre diretto dalle zone a potenziale più alto a quelle a potenziale più basso.
+    \subsubsection{Circuitazione del campo elettrico}
+        \par Supponiamo di avere una linea chiusa $l$ di forma qualsiasi. Dividiamo la linea $l$ in tanti pezzettini $\overrightarrow{\Delta l_k}$ ognuno dei quali è rappresentato da un vettore orientato nel verso della linea. I pezzettini $\overrightarrow{\Delta l_k}$ devono essere sufficientemente piccoli in modo tale da poter considerare ciascun trattino coincidente con una porzione di linea.
+        \par Consideriamo un generico vettore $\vec{v}$ avente una direzione qualsiasi che nei vari punti della linea $l$ può avere diverse inclinazioni e diversi moduli.
+        \par Si definisce \textbf{circuitazione del vettore $\vec{v}$ lungo la linea $l$} la seguente somma di prodotti scalari:
+        \begin{equation}
+            \Gamma_{(l)}(\vec{v})=\sum_{k=1}^{n} \vec{v}_k \times \overrightarrow{\Delta l}_k
+        \end{equation}
+        \par A noi interessa calcolare la circuitazione del vettore campo elettrostatico attraverso una linea continua chiusa.
+        \par Supponiamo che il campo elettrico sia generato da una certa distribuzione di carica positiva nello spazio. Nei vari punti della linea $l$ il campo elettrico generato da questa distribuzione di carica avrà diverse inclinazioni e diversi valori.
+        \par Per calcolare la circuitazione di $\vec{E}$ lungo la linea chiusa $l$ calcoliamo il lavoro compiuto dalla forza elettrica quando una generica carica elettrica $q$ (ad es. positiva) compie l'intero percorso.
+        \begin{equation*}
+            L_{tot}=\sum_{k=1}^n L_k=\sum_{k=1}^n q\vec{E}_k \times \overrightarrow{\Delta l}_k =q\sum_{k=1}^n \vec{E}_k \times \overrightarrow{\Delta l}_k
+        \end{equation*}
+        \par Possiamo ricordare l'ultima relazione vista fra campo elettrico e variazione del potenziale elettrico nello spazio (equazione \ref{eq:46relCampoElettricoVarEPE} pag. \pageref{eq:46relCampoElettricoVarEPE})
+        \begin{equation}\label{eq:46Circuitazione}
+            L_{tot}=q\sum_{k=1}^n V_n-V_{n+1} = 0 \enspace \enspace V_0=V_n
+        \end{equation}
+        \par La conclusione è la seguente: Il lavoro compiuto dal campo elettrico quando la carica unitaria positiva compie un qualsiasi percorso chiuso è 0, ovviamente il risultato rimane 0 anche se $q\neq1$. Abbiamo dimostrato che \textbf{la forza elettrica è conservativa}.
+    \subsubsection{Distribuzione della carica nei conduttori in equilibrio elettrostatico}
+        \par Ricordiamo la definizione di equilibrio:
+        \begin{equation*}
+            \sum_{n=0}^k \vec{F}_k=0
+        \end{equation*}
+        Immaginiamo una carica generica in un conduttore. Se tale carica è in equilibrio avremo
+        \begin{equation*}
+            \sum_{n=0}^k \vec{F}_k=0
+        \end{equation*}
+        \par In questa situazione consideriamo solo la forza elettrica, quindi
+        \begin{equation*}
+            q\cdot E_{tot}=0
+        \end{equation*}
+        \par Da questo deduciamo che $E_{tot}=0$ all'interno del conduttore. Questa conclusine indica che il campo elettrico all'interno del conduttore deve essere nullo ovunque.
+    \subsubsection{Ubicazione delle cariche in un conduttore}
+        \par Applichiamo il teorema di Gauss utilizzando una superficie appena all'interno del conduttore
+        \begin{equation*}
+            \Phi(\vec{E})=\frac{q_{int}}{\varepsilon_0}
+        \end{equation*}
+        \par Poiché $E=0$, $q_{int}=0$. Conclusione: la carica, non potendo stare all'interno, si distribuisce sulla superficie.
+    \subsubsection{Campo elettrico sulla superficie di un conduttore}
+        Il campo elettrico sulla superficie è perpendicolare alla stessa e vale $E=\frac{\sigma}{\varepsilon_0}$
+    \subsubsection{Andamento del potenziale in un conduttore in equilibrio}
+        \par Un conduttore in equilibrio è equipotenziale
+\subsection{La capacità elettrica}
+    \par Si definisce capacità elettrica di un conduttore il rapporto costante fra la carica presente su di esso e il potenziale assoluto in conseguenza alla presenza di tale carica.
+    \begin{equation*}
+        V=\frac{k\cdot Q}{R}
+    \end{equation*}
+    \begin{equation*}
+        V=\frac{1}{4\pi\varepsilon_0}\cdot\frac{Q}{R}
+    \end{equation*}
+    \begin{equation}\label{eq:46Capacita}
+        C=\frac{Q}{V}=4\pi\varepsilon_0\cdot R=COST
+    \end{equation}
+    \par Di particolare interesse è la capacità di un condensatore, che viene definita nel seguente modo: $C=\frac{Q}{\Delta V_c}$, dove con $Q$ si intende il valore assoluto della carica in una delle due armature e $\Delta V_c$ è la differenza di potenziale fra le due armature.
+    \subsubsection{Caso particolare del condensatore piano}
+        \begin{equation*}
+            E=\frac{\mid\sigma\mid}{\varepsilon_0}
+        \end{equation*}
+        \begin{equation*}
+            \mid\sigma\mid=\frac{\mid Q \mid}{A} \textnormal{, A è l'area}
+        \end{equation*}
+        \begin{equation*}
+            E=\frac{\mid Q \mid}{A\varepsilon_0}
+        \end{equation*}
+        \par Per calcolare la $\Delta V_c$ sfruttiamo la relazione fra campo elettrico e differenza di potenziale (equazione \ref{eq:46relCampoElettricoVarEPE} pag.  \pageref{eq:46relCampoElettricoVarEPE}). Poniamo $d$ la distanza fra le armature.
+        \begin{equation*}
+            E\cdot d=\Delta V_c \rightarrow E=\frac{\Delta V_c}{d} \rightarrow C=\frac{E\cdot A \cdot\varepsilon_0}{E\cdot d}
+        \end{equation*}
+        \begin{equation}
+            C=\frac{\varepsilon_0\cdot A}{d} \enspace [C]=\frac{C}{V}=F
+        \end{equation}
+\subsection{Composizione in serie e in parallelo di condensatori}
+    \par Due o più condensatori si dicono collegati in parallelo quando sono sottoposti alla stessa variazione di potenziale.
+    \par Due o più condensatori si dicono collegati in serie quando sulle aramture corrispondenti hanno la stessa carica.
+    \par Ricaviamo la capacità equivalente di più condensatori in parallelo:
+    \begin{equation*}
+        C_{tot}=\sum_{n=0}^k C_n
+    \end{equation*}
+    Si chiama condensatore equivalente ($C_e$) un condensatore che, sottoposto alla stessa differenza di potenziale del sistema reale avrà una carica uguale a quella del sistema totale
+\subsection{Energia associata al campo elettrico}
+        \subsubsection{Significato geometrico di lavoro elettrico}
+            \par Consideriamo il processo di carica di un condensatore mediante l'utilizzo di un generatore. Durante il processo di carica viene aumentata l'energia potenziale elettrica del condensatore. Da scarico ($Q=0$, $\Delta V_c=0$) l'energia potenziale elettrica era uguale a 0 e non vi era nemmeno vampo elettrico fra le aramture. Al termine del processo di carica vi sarà una $\Delta V_c$ uguale a quella del generatore, e quindi un'energia potenziale diversa da 0.
+            \par Ricordiamo che la capacità di un condensatore è definita come  il rapporto costante fra la carica presente su di esso e il potenziale assoluto in conseguenza alla presenza di tale carica. La $\Delta V_c$ è direttamente proporzionale alla carica presente su ciascuna armatura.
+            %grafico
+            \par Ricordiamo che in varie situazioni, come ad esempio nel caso della forza elastica (paragrafo \ref{par:33forzaElastica}), e nel caso del lavoro compiuto da un gas (\large{\textbf{Da referenziare}})

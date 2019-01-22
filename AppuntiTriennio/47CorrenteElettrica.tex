@@ -1,0 +1,95 @@
+\section{La corrente elettrica e i circuiti in corrente continua}
+\subsection{Definizioni}
+    \subsubsection{Corrente elettrica}
+        \par È un flusso ordinato di cariche tutte dello stesso segno. Dal punto di vista matematico possiamo definire la corrente elettrica come la quantità di carica che passa in una certa sezione $S$ di un conduttore nell'unità di tempo.
+        \begin{equation*}
+            I=\frac{q}{\Delta t}, [I]=\frac{C}{s}=A
+        \end{equation*}
+        \par Per comodità di misura, nel SI è assunta come unità fondamentale l'Ampere, di conseguenza il Coulomb è un'unità derivata.
+    \subsubsection{Densità di corrente eletteica}
+        \par Rappresenta la corrente che fluisce attraverso l'unità di superficie trasversale del conduttore.
+        %Disegno%
+        \begin{equation}
+            \vec{J}=\left(\frac{I}{s}\right)\vec{n}
+        \end{equation}
+        \par $\vec{n}$ rappresnta la direzione delle cariche.
+    \subsubsection{Materiali conduttori e materiali isolanti}
+        \par Il parametro fisico che caratterizza i materiali dal punto di vista della conducibilità della corrente è la conducibilità $\sigma$ oppure il suo reciproco $\rho$ (rho) $=\frac{1}{\sigma}$, che è la resistività elettrica.
+        \begin{equation*}\rho_{Cu}=1,7\cdot10^{-8}\Omega\cdot m\end{equation*}
+        \par $[\sigma]=s$ (siemens), $[\rho]=\Omega\cdot m=\frac{\Omega\cdot mm^2}{m}$
+        \par Un materiale conduttore si differenzia da un materiale isolante per la presenza di elettroni liberi nel reticolo cristallino: quando noi applichiamo una differenza di potenziale agli elettroni di un conduttore, gli elettroni liberi di muoversi migreranno verso il polo positivo del generatore.
+    \subsubsection{Corrente reale e corrente convenzionale}
+        \par Nei conduttori metallici la corrente reale è formata dagli elettroni.
+        \par La corrente convenzionale è una corrente fittizia di cariche positive che si muovono in verso opposto a quello reale degli elettroni: il suo effetto però è lo stesso della corrente reale.
+    \subsubsection{Corrente continua e alternata}
+        \par Si definisce corrente continua una corrente nella quale il moto delle cariche avviene sempre nello stesso verso; la corrente fornita dalle pile è un tipico esempio di corrente continua.
+        \par Si definisce corrente alternata in cui il moto delle cariche cambia verso ad intervalli di tempo regolari oppure no.
+\subsection{II legge di Ohm}
+    \par La resistività, e quindi la conducibilità, compaiono nella definizione di resistenza di un conduttore.
+    \begin{equation}\label{eq:472ohm}
+        R=\rho\cdot\frac{L}{s}=\frac{1}{\sigma}\cdot\frac{L}{s}
+    \end{equation}
+    \par La resistività aumenta con la temperatura:
+    \begin{equation*}
+        \rho=\rho_0(1+\alpha_R\cdot\Delta T)
+    \end{equation*}
+    \par L'$\alpha_R$ è il coefficente di temperatura della reisistività ($\sim 10^{-3}{}^{\circ}C^{-1}$), $\rho_0$ è la resistività a 20ºC.
+\subsection{I legge di Ohm}
+    \par La prima legge di Ohm lega differenza di potenziale, corrente e resistenza elettrica.
+    \begin{equation}V=IR\end{equation}
+    \par Quando una corrente attraversa una resistenza, le cariche perdono progressivamente energia potenziale la quale, in prima battuta, si trasforma in energia cinetica (principio di conservazione dell'energia meccanica), poi le cariche in moto nel reticolo cristallino si trasformano in calore.
+    \begin{equation*}
+        E_{pe}\rightarrow E_c \rightarrow calore
+    \end{equation*}
+    \par La prima legge di Ohm esprime la caduta di tensione sulla resistenza.
+    \par Ricordiamo la seconda legge di Ohm (equazione \ref{eq:472ohm}) e analizziamo il potenziale in un generico punto $x$ della resistenza:
+    \begin{equation*}
+        V_{OUT}=V_{IN}-\frac{\rho x}{s}\cdot I
+    \end{equation*}
+    \begin{equation*}
+        V_{OUT}=V_{IN}-\left(\frac{\rho I}{s}\right)\cdot x
+    \end{equation*}
+    \par Osserviamo che all'interno di una resistenza percorsa da corrente il potenziale elettrico cala in modo lineare rispetto alla posizione.
+    \esempio calcolare la corrente che passa attraverso la resistenza del circuito rappresentato in figura.
+    %circuito%
+    $I=\frac{V}{R}=\frac{12}{20}=0,60A$. Nella resistenza fluiscono 0,60A.
+\subsection{Potenza elettrica}
+    \begin{equation*}
+        P=\frac{L_e}{\Delta t}=\frac{q(V_i-V_f)}{\Delta t}
+    \end{equation*}
+    \begin{equation}
+        P=V\cdot I=R\cdot I^2 = \frac{V^2}{R}
+    \end{equation}
+    \begin{equation*}
+        [P]=\frac{J}{s}=W
+    \end{equation*}
+\subsection{Resistenze in serie e in parallelo}
+    \subsubsection{In serie}
+        \par Due o più resistenze si dicono collegate in serie quando sono attraversate dalla stessa corrente.
+        \par Applichiamo la prima legge di Ohm
+        \begin{multline*}
+            \\I=\frac{\Delta V}{R}\\\Delta V_1=R_1I\\
+            \Delta V_2=R_2I\\
+            \Delta V_3=R_3I\\
+        \end{multline*}
+        \par In serie, ogni resistenza è sottoposta a una parte della $\Delta V$ totale. L'equazione del circuito reale sarebbe
+        \begin{equation*}
+            \Delta V_{tot}=(R_1+R_2+R_3)I
+        \end{equation*}
+        \par Si definisce resistenza equivalente $R_e$ una resistenza fittizia la quale, sottoposta alla stessa $\Delta V_{tot}$ del circuito reale, verrà attraversata dalla stessa corren
+        \begin{equation}
+            R_e=\sum_n=1^k R_n
+        \end{equation}
+        \par Per calcolare la $\Delta V$ su ciascuna resistenza, si può procedere nel seguente modo:
+        \par Ricordiamo che
+        \begin{equation*}
+            I=\frac{\Delta V_{tot}}{R_e}
+        \end{equation*}
+        \par allora
+        \begin{equation*}
+            \Delta V_1=R_1\cdot I=R_1\cdot\frac{\Delta V_{tot}}{R_e}
+        \end{equation*}
+        \begin{equation}\label{eq:47partitoretensione}
+            \Delta V_n=\frac{R_n}{R_e}\cdot\Delta V_{tot}
+        \end{equation}
+        \par L'equazione \ref{eq:47partitoretensione} rappresenta la caduta di tensione su ciascuna resistenza, utile nei casi in cui sia presente un partitore di tensione.

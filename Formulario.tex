@@ -1,0 +1,128 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[top=2cm,bottom=2cm,left=2cm,right=2cm]{geometry}
+\usepackage[italian]{babel}
+\usepackage{datetime}
+\usepackage[utf8]{inputenc}
+\usepackage{multicol}
+\usepackage{textcomp}
+\newcommand{\sen}{\textrm{sen}}
+\newcommand{\tg}{\textrm{tg}}
+\newcommand{\rad}{\textrm{rad}}
+\newcommand{\m}{\textrm{m}}
+\newcommand{\s}{\textrm{s}}
+\newcommand{\kg}{\textrm{kg}}
+\title{Formulario di Fisica}
+\renewcommand{\arraystretch}{1.5}
+\date{\vspace{-5ex}}
+\author{\vspace{-5ex}}
+%\author{Eugenio Tampieri, 3\textsuperscript{a} CLS}
+\begin{document}
+\maketitle
+\section{Quantità di moto e urti}
+    \subsection{Quantità di moto}
+        $\vec{q}=m \cdot \vec{v}$
+    \subsection{Principio di conservazione della quantità di moto}
+        Legge di variazione della quantità di moto: $\vec{q}_f-\vec{q}_i=\vec{F}_est \cdot \Delta t$\\
+        Legge di conservazione della quantità di moto: $\vec{q}_f=\vec{q}_i$\\
+    \subsection{Impulso di una forza}
+        $\vec{I}=\vec{F}\cdot \Delta t$
+\section{Dinamica rotazionale}
+    \subsection{Momento di inerzia di una massa}
+        Massa puntiforme: $I=m\cdot d^2$
+        Insieme di masse puntiformi: $I_{tot}=\displaystyle\sum_{k=1}^{n} m_k\cdot {d_k}^2$\\
+        Corpo rigido rispetto ad un asse baricentrico: $I_G=\displaystyle\sum_{k=1}^{n} \Delta m_k\cdot {d_k}^2$\\
+        Corpo rigido rispetto ad una retta non baricentrica: $I=I_G + m\cdot d^2$\\
+    \subsection{Momento angolare (o momento della quantità di moto)}
+        Momento angolare di un punto materiale: $\vec{L}=\vec{r}\wedge(m\cdot \vec{v})$\\
+        Momento angolare di un punto materiale (modulo): $L=r\cdot m \cdot v\cdot\sen\alpha$\\
+        Momento angolare di un corpo rigido in rotazione: $\vec{L}=I \cdot\omega$
+    \subsection{Principio di conservazione del momento angolare}
+        $\vec{\Delta L}=(\vec{r} \wedge \vec{F}_{est})\cdot\Delta t$ oppure $\vec{\Delta L}=\vec{M}_{est}\cdot\Delta t$
+    \subsection{Energia cinetica di rotazione}
+        Energia cinetica: $E_c=\frac{1}{2}\cdot I\cdot\omega^2$\\
+        Lavoro: $W=M\cdot\vartheta$
+    \subsection{Corrispondenza tra lunghezza di traslazione e rotazione}
+        \begin{tabular}{ | l | c | c | }
+            \hline & \textbf{Traslazioni} & \textbf{Rotazioni} \\ \hline
+            %Equazione & $y=ax^2+bx+c$ & $x=ay^2+by+c$ \\ \hline
+            Spostamento & $s (\m)$ & $\vartheta (\rad)$ \\ \hline
+            Velocità & $v (\frac{\m}{\s})$ & $\omega (\frac{\rad}{\s})$\\ \hline
+            Accelerazione & $a (\frac{\m}{\s^2})$ & $ a_\alpha (\frac{\rad}{\s^2}) $\\ \hline
+            Resistenza all'accelerazione (inerzia) & $m (\kg)$ & $I (\frac{\kg}{\m^2})$\\ \hline
+            Moto uniforme & $x=v_x \cdot t +v_{0x} + x_0$ & $\vartheta=\omega\cdot t+\vartheta_0$ \\ \hline
+            Moto uniformrmente accelerato & $x=\frac{1}{2}\cdot a_x \cdot t^2 + x_0+v_{0x}\cdot t$& $\vartheta=\frac{1}{2}\cdot a_\alpha \cdot t^2 + \vartheta_0+\omega_{0}\cdot t$ \\ \hline
+            Causa dell'accelerazione & $\vec{F}$ & $M=\vec{r}\wedge\vec{F}$ \\ \hline
+            Secondo principio della dinamica & $\vec{a}=\frac{\vec{F}}{m}$ & $a_\alpha=\frac{M}{I}$\\ \hline
+            Equazione equilibrio & $\vec{F}_{TOT}=0$ & $\vec{M}_{TOT}=0$ \\ \hline
+            Lavoro & $W=\vec{F}\times\vec{s}$&$W=M\times\alpha$\\ \hline
+            Energia cinetica & $E_c=\frac{1}{2}m\cdot v^2$&$E_c=\frac{1}{2}I\cdot \omega^2-$\\ \hline
+            Teorema dell'energia cinetica & $W_{est}=\frac{1}{2}m\cdot {v_f}^2-\frac{1}{2}m\cdot {v_i}^2$&$W_{est}=\frac{1}{2}I\cdot {\omega_f}^2-\frac{1}{2}I\cdot {\omega_i}^2$\\ \hline
+            Quantità di moto e momento angolare & $\vec{q}=m\cdot\vec{v}$ & $\vec{L}=\vec{r}\wedge m\cdot\vec{v}$; $\vec{L}=\vec{I}\cdot\vec{\omega}$\\ \hline
+        \end{tabular}
+\section{Coniche}
+\subsection{Parabola}
+  \begin{tabular}{ | l | c | c | }
+    \hline & Parabola ad asse verticale & Parabola ad asse verticale \\ \hline
+    Equazione & $y=ax^2+bx+c$ & $x=ay^2+by+c$ \\ \hline
+    Equazione dato il vertice & $y=a(x-x_v)^2+y_V$ & $x=a(y-y_v)^2+x_V$ \\ \hline
+    Delta & $\Delta=b^2-4ac$ & $\Delta=b^2-4ac$ \\ \hline
+    Ascissa del vertice & $x_v=-\frac{b}{2a}$ & $x_v=-\frac{\Delta}{4a}$ \\ \hline
+    Ordinata del vertice & $y_v=-\frac{\Delta}{4a}$ & $y_v=-\frac{b}{2a}$ \\ \hline
+    Asse & $x=-\frac{b}{2a}$ & $y=-\frac{b}{2a}$ \\ \hline
+    Cordinate del fuoco & $F(-\frac{b}{2a}; \frac{1-\Delta}{4a})$ & $F(\frac{1-\Delta}{4a};-\frac{b}{2a})$ \\ \hline
+    Equazione della direttrice & $y=-\frac{1+\Delta}{4a}$ & $x=-\frac{1+\Delta}{4a}$ \\ \hline
+  \end{tabular}
+  \subsubsection{Altre formule}
+  \textbf{Area del segmento parabolico}: Detta $A_r$ l'area del rettangolo racchiuso dalla secante e dalla tangente parallela alla secante, $A=\frac{2}{3} \cdot A_r$
+  \textbf{Equazione del fascio}: $ay+bx^2+cx+d+k(a'y+b'x^2+c'x+d')=0$
+\subsection{Circonferenza}
+	\begin{description}
+	\item[Equazione noti il centro e il raggio] $(x-\alpha)^2+(y-\beta)^2=r^2$, dove $\alpha$ e $\beta$ sono le coordinate del centro
+	\item[Equazione in forma implicita] \begin{math}x^2+y^2+ax+by+c=0\end{math}
+	\item[Coordinate del centro] $C(\alpha ; \beta)$, con $\alpha = -\frac{a}{2}$ e $\beta = -\frac{b}{2}$
+	\item[Raggio]$r=\sqrt{\alpha^2+\beta^2-c}$, con $\alpha = -\frac{a}{2}$ e $\beta = -\frac{b}{2}$
+	\end{description}
+\section{Goniometria}
+\begin{multicols}{2}
+	\subsection{Funzioni goniometriche}
+	\begin{itemize}
+		\item $\sen\alpha$
+		\item $\cos\alpha$
+	\end{itemize}
+	\subsection{Angoli notevoli}
+  \begin{tabular}{ | c | c | c | c | c | }
+    \hline $\alpha$ & $\alpha$ (\textdegree) & $\sen(\alpha)$ & $\cos(\alpha)$ & $\tg(\alpha)$ \\ \hline
+    $\frac{\pi}{6}$ & 30\textdegree & $\frac{1}{2}$ & $\frac{\sqrt{3}}{2}$ & $\frac{\sqrt{3}}{3}$ \\ \hline
+    $\frac{\pi}{4}$ & 45\textdegree & $\frac{\sqrt{2}}{2}$ & $\frac{\sqrt{2}}{2}$ & $1$ \\ \hline
+    $\frac{\pi}{3}$ & 60\textdegree & $\frac{\sqrt{3}}{2}$ & $\frac{1}{2}$ & $\sqrt{3}$ \\ \hline
+  \end{tabular}
+  	\subsection{Formule goniometriche}
+  		\subsubsection{Somma}
+			$\cos(\alpha+\beta)=\sen\alpha \sen\beta-\cos\alpha \cos\beta$\\[0.5em]
+			$\sen(\alpha+\beta)=\sen\alpha \cos\beta+\cos\alpha \sen\beta$\\[0.5em]
+			$\tg(\alpha+\beta)=\frac{\tg\alpha+\tg\beta}{1-\tg\alpha\tg\beta}$
+  		\subsubsection{Sottrazione}
+			$\cos(\alpha-\beta)=\sen\alpha \sen\beta+\cos\alpha \cos\beta$\\[0.5em]
+			$\sen(\alpha-\beta)=\sen\alpha \cos\beta-\cos\alpha \sen\beta$\\[0.5em]
+			$\tg(\alpha+\beta)=\frac{\tg\alpha-\tg\beta}{1+\tg\alpha\tg\beta}$
+  		\subsubsection{Duplicazione}
+			$\sen(2\alpha)=2\sen\alpha\cos\alpha$\\[0.5em]
+			$\cos(2\alpha)=2\cos^2\alpha-1$\\[0.5em]
+			$\cos(2\alpha)=1-2\sen^2\alpha$\\[0.5em]
+			$\tg(2\alpha)=\frac{2\tg\alpha}{1-\tg^2\alpha}$
+  		\subsubsection{Bisezione}
+			$\cos(\frac{\alpha}{2})=\pm\sqrt{\frac{1+\cos\alpha}{2}}$\\[0.5em]
+			$\sen(\frac{\alpha}{2})=\pm\sqrt{\frac{1-\cos\alpha}{2}}$\\[0.5em]
+			$\tg(\frac{\alpha}{2})=\pm\sqrt{\frac{1-\cos\alpha}{1+\cos\alpha}}$
+  		\subsubsection{Formule di prostaferesi}
+  		${\sen(p)}+ {\sen(q)}=2\sen\frac{p+q}{2}\cos\frac{p-q}{2}$\\[0.5em]
+  		${\sen(p)}-{\sen(q)}=2\cos\frac{p+q}{2}\sen\frac{p-q}{2}$\\[0.5em]
+  		${\cos(p)}+ {\cos(q)}=2\sen\frac{p+q}{2}\cos\frac{p-q}{2}$\\[0.5em]
+  		${\cos(p)}-{\cos(q)}=-2\sen\frac{p+q}{2}\sen\frac{p-q}{2}$\\[0.5em]
+  		\subsubsection{Formule di Werner}
+  		${\sen\alpha}\cdot {\cos\beta}=\frac{1}{2}\lbrack \sen(\alpha + \beta)+\sen(\alpha+\beta)\rbrack$\\[0.5em]
+  		${\cos\alpha}\cdot {\cos\beta}=\frac{1}{2}\lbrack \cos(\alpha + \beta)+\sen(\alpha+\beta)\rbrack$\\[0.5em]
+  		${\sen\alpha}\cdot {\sen\beta}=\frac{1}{2}\lbrack \cos(\alpha - \beta)-\cos(\alpha+\beta)\rbrack$
+	\end{multicols}
+\tableofcontents
+\end{document}

@@ -1,0 +1,71 @@
+\section{Teoria cinetica dei gas}
+\subsection{Modello dei gas perfetti}
+    \par Il modello dei gas perfetti prevede che:
+    \begin{itemize}
+        \item I gas siano talmente rarefatti da rendere improbabili le interazioni fra le molecole
+        \item Si possono trascurare le energie potenziali
+        \item L'unica energia presente è quella cinetica
+    \end{itemize}
+    \par Le tre variabili macroscopiche che distinguono un gas sono temperatura, pressione e volume.
+\subsection{Equazioni delle trasformazioni}
+    \subsubsection{Legge di Boyle (trasformazione isoterma)}
+        \par La pressione di un gas è inversamente proporzionale al volume. $P \cdot V=k$, quindi $P_1 \cdot V_1=P_2 \cdot V_2$.
+        \par Nel diagramma P-V la curva si sposta in alto a destra all'aumentare della temperatura
+    \subsubsection{Legge di Charles o 1\textsuperscript{a} legge dy Gay-Lussac (trasformazione isobara)}
+        \par La pressione di un gas è inversamente proporzionale al volume. Nel diagramma P-V viene rappresentata mediante una retta orizzontale. Il rapporto fra il volume e la temperatura è costante. $\frac{V}{T}=k$, quindi $\frac{V_1}{T_1}=\frac{V_2}{T_2}$.
+    \subsubsection{2\textsuperscript{a} legge di Gay-Lussac (trasformazione isocora)}
+        \par Il volume è costante e il rapporto fra pressione e temperatura è costante. $\frac{P}{T}=k$, quindi $\frac{P_1}{T_1}=\frac{P_2}{T_2}$.
+\subsection{Equazione di stato dei gas perfetti}
+    \par Ricaviamo l'equazione di stato dei gas perfetti. L'equazione di stato rappresenta un legame matematico fra le tre grandezze macroscopiche P, V e T.
+    \par Per ricavare tale relazione consideriamo una trasformazione costituita da un'isobara seguita da un'isoterma.
+    Per ipotesi abbiamo $P_1=P_0$ e $T_1=T_2$.
+    \begin{equation*}
+        \begin{cases}
+            \frac{V_1}{T_1}=\frac{V_0}{T_0} \\
+            \frac{P_2}{V_2}=\frac{P_1}{V_1}
+        \end{cases}
+    \end{equation*}\begin{equation*}
+        \begin{cases}
+            \frac{V_1}{T_1}=\frac{V_0}{T_0} \\
+            \frac{P_2}{V_2}=\frac{P_1}{V_1}
+        \end{cases}
+    \end{equation*}\begin{equation*}
+        V_2=\frac{P_1V_0T_1}{T_0P_2}=\frac{V_0P_0}{T_0}\cdot\frac{T_2}{P_2}
+    \end{equation*}
+    \par Lo stato 2 è un qualsiasi stato finale che si può indicare senza indice.
+    \begin{equation*}
+        P\cdot V=T\frac{V_0P_0}{T_0}
+    \end{equation*}
+    \par Il termine $\frac{V_0P_0}{T_0}$, essendo $P_0$ e $T_0$ prefissati, risulta proporzionale al volume iniziale del gas $V_0$ e quindi al numero di moli, per la legge di Avogadro, indicato con $N\cdot R$. Così facendo, l'equazione diventa
+    \begin{equation}
+        P \cdot V=N \cdot R \cdot T
+    \end{equation}
+    Sfruttiamo la conoscenza delle condizioni standard (T = 273,14 K; P = $1,013\cdot10^5$ Pa; N = 1 mol; V=22,414 L) per calcolare R.
+    \begin{equation}
+        R=\frac{P\cdot V}{N\cdot T}=\frac{1,013\cdot10^5\cdot22,414\cdot10^{-3}}{1\cdot 273,14}=8,31\frac{\textrm{J}}{\textrm{mol}\cdot \textrm{K}}   
+    \end{equation}
+    \par Osservazione: Il prodotto $P\cdot V$ ha le dimensioni fisiche dell'energia.
+    \begin{equation*}
+        1 \textrm{Pa}=1\frac{\textrm{N}}{\textrm{m}^2} \rightarrow \frac{\textrm{N}}{\textrm{m}^2}\cdot \textrm{m}^3=\textrm{N}\cdot\textrm{m}
+    \end{equation*}
+    \par Poiché il primo membro dell'equazione è un'energia, possiamo dedurre che l'energia di un gas perfetto è proporzionale alla sua temperatura.
+\subsection{Pressione di un gas dal punto di vista microscopico}
+    Ipotizziamo che:
+    \begin{itemize}
+        \item Il gas sia contenuto in una scatola cubica di lato $l$
+        \item L'effetto totale degli urti delle molecole contro le pareti sia lo stesso se si schematizzano le molecole dividendole in tre gruppi, ognuno dei quali si muove in direzione parallela ad un asse
+        \item Tutte le molecole abbiano la stessa velocità media come modulo
+    \end{itemize}
+    Si può dedurre che:
+    \begin{enumerate}
+        \item Una singola molecola produrrà due urti contro la stessa parete ogni $\Delta t=\frac{2l}{v_m}$ s
+        \item In ogni urto elastico fra molecola e parete possiamo applicare la legge della variazione della quantità di moto
+    \end{enumerate}
+    \par $\vec{f}_{pm}$ è la forza che la parete esercita su una molecola.
+    \par $\vec{q}_f-\vec{q}_i=\vec{F}_{est}^{x}\cdot\Delta t$
+    \par $\vec{q}_f^x-\vec{q}_i^x=F_{est}^{x}\cdot\Delta t$
+    \par $m\cdot v_m\cdot\cos 180\degree-m\cdot v_m\cdot\cos 0\degree=f_{pm}\cdot\Delta t$
+    \par $-2mv_m=f_{pm}^x\cdot\frac{2l}{v_m}$
+    \par $f_{pm}^x=-\frac{mv^2_m}{l}$
+    \par Per il terzo principio della dinamica la molecola eserciterà sulla parete una forza uguale e contraria a $f_{pm}^{x}$: $f_{mp}^x=\frac{mv^2_m}{l}$.
+    Le molecole che viaggiano sull'asse x sono $\frac{1}{3}v_m$, quindi $F_{mp}^x=\frac{1}{3}\frac{mv_m^2}{2}$

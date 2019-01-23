@@ -56,3 +56,30 @@
         Postulato implicito: ${\Delta}t={\Delta}t'$                                                                                                          & ${\Delta}t$=?                                                                                                        \\
         $\vec{a}=\frac{\vec{F}_{tot}}{m}$                                                            &                                                                                                                     
         \end{tabular}
+    \subsection{Intervallo di tempo proprio e dilatazione dei tempi}
+        \par Si definisce sistema di riferimento proprio per un certo fenomeno fisico il sistema di riferimento nel quale fenomeno stesso inizia e finisce nello stesso punto.
+        \par La durata del fenomeno fisico in tale sistema di riferimento proprio viene chiamato intervallo di tempo proprio ($\Delta\tau$). In meccanica classica si da per scontato che l'intervallo di tempo proprio $\Delta\tau$ e l'intervallo di tempo non proprio misurato da un qualsiasi osservatore non proprio siano uguali.
+        \par Determiniamo la relazione fra un intervallo di tempo proprio per un certo fenomeno e il corrispondente intervallo di tempo non proprio misurato da un osservatore non proprio, nell'ipotesi che $c$ sia costante.
+        \par Immaginiamo di considerare il fenomeno fisico del viaggio di un raggio di luce dal tavolino di un treno al soffitto e viceversa.
+        \begin{figure}[53reltempo1]
+            \caption{Nella figura a sinistra è rappresentato il fenomeno dal punto di vista di un osservatore non proprio esterno al treno, mentre nella figura a destra è rappresentato il punto di vista dell'osservatore proprio}
+            \centering
+            \includegraphics[width=15cm]{res/53reltempo}
+        \end{figure}
+        \par Indichiamo con $\Delta\tau$ l'intervallo di tempo proprio misurato dall'osservatore proprio sul treno ($\Delta\tau=\frac{2d}{c}$). Analizziamo lo stesso fenomeno dal punto di vista dell'osservatore $O'$ fermo a terra.
+        \begin{figure}[53reltempo2]
+            \caption{Dettaglio del fenomeno visto da terra}
+            \centering
+            \includegraphics[width=15cm]{res/53reltempo2}
+        \end{figure}
+        \begin{equation*}
+            AC^2=AH^2+CH^2 \\
+            (\frac{1}{2}c\cdot\Delta t)^2 = (\frac{1}{2}V_{rel}\Delta t)^2 + (\frac{1}{2}c\Delta\tau)^2 \\
+            c^2\Delta{t}^2=V_{rel}^2\Delta{t} + c^2\Delta\tau2 \\
+            \Delta{t}^2(c^2-V_{rel}^2) = \Delta{t}^2(1-\frac{V_{rel}^2}{c^2}) \\
+            \Delta{t}=\Delta\tau\cdot\frac{1}{\sqrt{1-\frac{V_{rel}^2}{c^2}}}
+        \end{equation*}
+        \par Poniamo $\gamma=\frac{1}{\sqrt{1-\frac{V_{rel}^2}{c^2}}}$ e notiamo che $\gamma \geq 1 \forall V_{rel} \in \mathbb{R}$. Otteniamo che
+        \begin{equation}\label{eq:53reltempi}
+            \Delta{t} = \gamma\Delta\tau
+        \end{equation}

@@ -16,3 +16,51 @@
         \par Per studiare sperimentalmente la radiazione emessa da un corpo nero si usa la cosiddetta cavità isoterma, costituita da una cavità preparata all'interno di un blocco di metallo. Si lascia un forellino da una parte. La superficie interna di questa cavità simula molto bene quella di un corpo nero.
         \par Con questo artificio si evita la fuoriuscita della radiazione riflessa e così si può vedere soltanto la radiazione caratteristica del corpo in funzione della sua temperatura.
         \par Gli studiosi hanno potuto determinare l'andamento della radiazione dei corpi (in particolare del corpo nero) al variare della temperatura. Quello che viene normalmente rappresentato nel diagramma è il potere emissivo specifico ($R(\lambda,T)$), che rappresenta l'energia irradiata del corpo nel'unità di tempo e di superficie nell'intervallo unitario di lunghezza d'onda e quindi i valori che leggeremo in ordinata si riferiscono ad una porzione unitaria di spettro.
+	%Immagine grafico dello spettro di emissione del corpo nero
+	\par $[R]=\frac{W}{m^2\cdot \mu_m}$
+	\par Commento: fissata una qualsiasi temperatura, il grafico mostra che
+	il potere emissivo specifico R presenta un massimo la cui ordinata
+	cresce al crescere della temperatura; si può anche osservare che
+	l'ascissa di tale massimo (la lunghezza d'onda) si sposta al crescere
+	della temperatura verso le lunghezze d'onda più basse.
+	\par Quest'ultima proprietà è nota come legge di spostamento del
+	massimo di Wien.
+	\begin{equation}
+		\lambda_{max}\cdot T = 2,898\cdot 10^{-3}m\cdot k
+	\end{equation}
+	\par I punti di massimo stanno quindi su un ramo di iperbole.
+	\par Si può dimostrare che con il calcolo integrale l'area sottesa da
+	ciascuna curva è proporzionale all'energia emessa in ogni secondo dal
+	corpo su tutto lo spettro.
+	\par Tale grafico deve essere giustificato teoricamente sfruttando le
+	leggi fisiche conosciute.
+	\par L'equazione teorica ottenuta, nota come legge di Rayleigh-Jeans,
+	per spiegare lo spettro del corpo nero è la seguente:
+	\begin{equation}
+		R(\lambda, T) = \frac{8\pi}{c} \frac{1}{\lambda^2}\cdot k_B \cdot T
+	\end{equation}
+	\par QUesta legge tiene conto di tutte le conoscenze di termodinamica e
+	elettromagnetismo. Emerge subito un problema enorme: fissata una temperatura,
+	si ottiene in'iperbole, in palese disaccordo con i dati sperimentali.
+	%Grafico con confronti
+	Alle alte lunghezze d'onda i due grafici sono in accordo, ma alle basse
+	lunghezze d'onda sono in disaccordo. In più, $\lim_{\lambda \to 0^+}
+	R(\lambda , T) = +\infty$.
+	\par Con l'ipotesi di discretizzazione dell'energia ($E=n\cdot (h\cdot
+	f), n \in N$), Planck ottenne una curva praticamente identica a quella
+	sperimentale:
+	\begin{equation}
+		R(\lambda, T)=c_1 \frac{1}{\lambda^5}\frac{1}{e^{c_2\frac{1}{
+			\lambda\cdot T}}-1}, c_1=2\pi hc^2, c_2 = \frac{hc}{k_B}
+	\end{equation}
+	\par Osservazione 1: un oscillatore, o in generale un sistema fisico,
+	possiede un insieme discreto di possibili valori per l'energia chiamati
+	livelli energetici; energie intermedie fra questi valori discreti non
+	sussistono.
+	\par Osservazione 2: detta $f$ la frequenza dell'oscillatore, le possibili
+	energie sono le seguenti: $E_n = n(hf)=n\cdot E_{min}$.
+	\par Osservazione 3: l'emissione e l'assorbimento di onde elettromagnetiche
+	sono associati a transizioni fra due di questi livell; l'energia persa
+	o guadagnata dall'oscillatore è emessa o assorbita sotto forma di "quanti"
+	di energia $hf$.
+
